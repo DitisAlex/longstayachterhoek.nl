@@ -24,6 +24,10 @@ export default function Index() {
           href="favicon-16x16.png"
         />
         <link rel="manifest" href="site.webmanifest" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@1,700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <WIP />
     </div>
