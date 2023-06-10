@@ -6,6 +6,7 @@ export default function Index() {
     <div>
       <Head>
         <title>Longstay Achterhoek</title>
+        <meta name="description" content="A home away from home" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
