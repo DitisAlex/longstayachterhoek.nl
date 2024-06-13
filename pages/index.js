@@ -1,5 +1,6 @@
 import Head from "next/head";
 import WIP from "../components/WIP";
+import { ThemeModeScript } from "flowbite-react";
 
 export default function Index() {
   return (
@@ -29,6 +30,7 @@ export default function Index() {
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@1,700&display=swap"
           rel="stylesheet"
         />
+        <ThemeModeScript />
       </Head>
       <WIP />
     </div>
