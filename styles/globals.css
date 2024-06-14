@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-bg: #FFFDFA;
+    --color-text: #333333;
+    --color-text-light: #666666;
+
+
+    --navbar-primary: #176400;
+    --navbar-button-hover: #2e9c06;
+    --navbar-text: #FFFFFF;
+    --navbar-text-hover: #a19d9d;
+  }
+
   body {
-    @apply bg-[#FFFDFA] font-montserrat
+    @apply bg-[--color-bg] font-montserrat
   }
 }

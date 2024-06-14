@@ -1,5 +1,7 @@
 import Head from "next/head";
 import WIP from "../components/WIP";
+import NavbarComponent from "../components/Navbar";
+
 import { ThemeModeScript } from "flowbite-react";
 
 export default function Index() {
@@ -32,6 +34,8 @@ export default function Index() {
         />
         <ThemeModeScript />
       </Head>
+      <NavbarComponent />
+      <WIP />
       <WIP />
     </div>
   );
