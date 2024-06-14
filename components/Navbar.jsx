@@ -38,7 +38,7 @@ export default function NavbarComponent() {
         <Navbar className="bg-[--navbar-primary]">
           <Navbar.Brand href="https://www.longstayachterhoek.nl">
             <span className="self-center whitespace-nowrap text-xl font-semibold ">
-              Longstay
+              Longstay Achterhoek
             </span>
           </Navbar.Brand>
           <div className="flex lg:order-2 justify-end">
