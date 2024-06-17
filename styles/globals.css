@@ -15,6 +15,12 @@
     --navbar-text-hover: #a19d9d;
   }
 
+  html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+}
+
+
   body {
     @apply bg-[--color-bg] font-montserrat
   }
