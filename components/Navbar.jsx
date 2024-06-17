@@ -1,16 +1,27 @@
 "use client";
 
-import { Button, Navbar } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import { Flowbite } from "flowbite-react";
 
+import React, { useEffect, useState } from "react";
+
 export default function NavbarComponent() {
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const checkScroll = () => {
+      setHasScrolled(window.scrollY > 150);
+    };
+
+    window.addEventListener("scroll", checkScroll);
+
+    // Clean up the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener("scroll", checkScroll);
+    };
+  }, []);
+
   const customTheme = {
-    button: {
-      color: {
-        success:
-          "border border-transparent bg-[--navbar-primary] outline outline-2 text-white focus:ring-2 focus:ring-[--color-bg] enabled:hover:bg-[--navbar-button-hover]",
-      },
-    },
     navbar: {
       brand: {
         base: "flex items-center text-[--navbar-text]",
@@ -33,23 +44,29 @@ export default function NavbarComponent() {
   };
 
   return (
-    <div className="z-50 fixed w-full top-0 mx-auto shadow-md">
+    <div
+      className={`z-50 fixed w-full top-0 mx-auto ${
+        hasScrolled ? "shadow-md" : "shadow-none"
+      }`}
+    >
       <Flowbite theme={{ theme: customTheme }}>
-        <Navbar className="bg-[--navbar-primary]">
-          <Navbar.Brand href="https://www.longstayachterhoek.nl">
-            <span className="self-center whitespace-nowrap text-xl font-semibold ">
+        <Navbar
+          className={`md:py-6 ${
+            hasScrolled ? "bg-[--navbar-primary]" : "bg-transparent"
+          } `}
+          onToggle={console.log("test")}
+        >
+          <Navbar.Brand href="#">
+            <span className="self-center whitespace-nowrap text-xl font-semibold w-2">
               Longstay Achterhoek
             </span>
           </Navbar.Brand>
           <div className="flex lg:order-2 justify-end">
-            <Button color="success" className="lg:mr-0 mr-4">
-              Boek Direct
-            </Button>
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Navbar.Link href="#">Over Ons</Navbar.Link>
-            <Navbar.Link href="#">Suites</Navbar.Link>
+            <Navbar.Link href="#about">Over Ons</Navbar.Link>
+            <Navbar.Link href="#suites">Suites</Navbar.Link>
             <Navbar.Link href="#">Faciliteiten</Navbar.Link>
             <Navbar.Link href="#">Zakelijk</Navbar.Link>
             <Navbar.Link href="#" className="border-b-0">
