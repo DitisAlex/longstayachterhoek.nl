@@ -1,11 +1,10 @@
 import Image from "next/image";
 import logo from "../public/logo.jpg";
 import Link from "next/link";
-import { FaArrowCircleDown } from "react-icons/fa";
 
-export default function WIP() {
+export default function Landing() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center md:flex-row">
+    <div className="h-screen flex flex-col justify-center items-center md:flex-row shadow-lg">
       <div className="flex h-full w-full items-center justify-center bg-gray-950">
         <Image
           src={logo}
@@ -18,15 +17,13 @@ export default function WIP() {
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
             Welkom bij Longstay Achterhoek
           </h1>
-          <p className="text-lg md:text-xl">
+          <p className="text-sm md:text-xl">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-            ducimus nam non tenetur fuga, distinctio repellat numquam placeat
-            veniam earum, sed doloremque officiis quod aliquid nobis ipsum
-            accusamus voluptas ex!
+            ducimus nam non tenetur fuga!
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
-              href="#"
+              href="#about"
               className="inline-flex h-10 items-center justify-center rounded-md bg-gray-50 px-6 text-sm font-medium text-gray-900 shadow-sm transition-colors hover:bg-gray-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-950 dark:text-gray-50 dark:hover:bg-gray-800 dark:focus-visible:ring-gray-300"
             >
               Lees Meer

@@ -1,6 +1,8 @@
 import Head from "next/head";
 import NavbarComponent from "../components/Navbar";
 import Landing from "../components/Landing";
+import About from "../components/About";
+import Suites from "../components/Suites";
 
 import { ThemeModeScript } from "flowbite-react";
 
@@ -36,6 +38,8 @@ export default function Index() {
       </Head>
       <NavbarComponent />
       <Landing />
+      <About />
+      <Suites />
     </div>
   );
 }
