@@ -29,7 +29,7 @@ export default function Landing() {
               Lees Meer
             </Link>
             <Link
-              href="#"
+              href="#suites"
               className="inline-flex h-10 items-center justify-center rounded-md border border-gray-50 bg-transparent px-6 text-sm font-medium text-gray-50 transition-colors hover:bg-gray-50/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:hover:bg-gray-800/10 dark:focus-visible:ring-gray-300"
             >
               Suites

@@ -54,9 +54,8 @@ export default function NavbarComponent() {
           className={`md:py-6 ${
             hasScrolled ? "bg-[--navbar-primary]" : "bg-transparent"
           } `}
-          onToggle={console.log("test")}
         >
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="http://localhost:3000/#">
             <span className="self-center whitespace-nowrap text-xl font-semibold w-2">
               Longstay Achterhoek
             </span>
@@ -65,11 +64,22 @@ export default function NavbarComponent() {
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Navbar.Link href="#about">Over Ons</Navbar.Link>
-            <Navbar.Link href="#suites">Suites</Navbar.Link>
-            <Navbar.Link href="#">Faciliteiten</Navbar.Link>
-            <Navbar.Link href="#">Zakelijk</Navbar.Link>
-            <Navbar.Link href="#" className="border-b-0">
+            <Navbar.Link href="http://localhost:3000/#about">
+              Over Ons
+            </Navbar.Link>
+            <Navbar.Link href="http://localhost:3000/#suites">
+              Suites
+            </Navbar.Link>
+            <Navbar.Link href="http://localhost:3000/#facilliteiten">
+              Faciliteiten
+            </Navbar.Link>
+            <Navbar.Link href="http://localhost:3000/#zakelijk">
+              Zakelijk
+            </Navbar.Link>
+            <Navbar.Link
+              href="http://localhost:3000/#contact"
+              className="border-b-0"
+            >
               Contact
             </Navbar.Link>
           </Navbar.Collapse>

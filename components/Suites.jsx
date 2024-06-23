@@ -2,19 +2,20 @@ import Image from "next/image";
 import logo from "../public/logo.jpg";
 import { Button, Card } from "flowbite-react";
 import { Flowbite } from "flowbite-react";
+import Link from "next/link";
 
 export default function Suites() {
   const customTheme = {
     button: {
       color: {
         success:
-          "border border-transparent bg-[--navbar-primary] outline outline-2 text-white focus:ring-2 focus:ring-[--color-bg] enabled:hover:bg-[--navbar-button-hover]",
+          "w-full border border-transparent bg-[--navbar-primary] outline outline-2 text-white focus:ring-2 focus:ring-[--color-bg] enabled:hover:bg-[--navbar-button-hover]",
       },
     },
   };
 
   return (
-    <div id="suites" className="w-full p-2 py-16 bg-gray-200">
+    <div id="suites" className="w-full p-2 py-24 bg-gray-200">
       <div className="max-w-[1240px] m-auto">
         <p className="font-semibold uppercase text-2xl tracking-widest text-[--navbar-primary] py-2">
           Suites
@@ -66,9 +67,14 @@ export default function Suites() {
               <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
                 Huis Bergh Suite
               </h5>
-              <Button color="success" className="font-semibold tracking-wider">
-                Lees Meer
-              </Button>
+              <Link href="/suites/huis-bergh">
+                <Button
+                  color="success"
+                  className="font-semibold tracking-wider"
+                >
+                  Lees Meer
+                </Button>
+              </Link>
             </Card>
           </div>
         </Flowbite>
