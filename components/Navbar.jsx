@@ -70,7 +70,7 @@ export default function NavbarComponent() {
             <Navbar.Link href="http://localhost:3000/#suites">
               Suites
             </Navbar.Link>
-            <Navbar.Link href="http://localhost:3000/#facilliteiten">
+            <Navbar.Link href="http://localhost:3000/#faciliteiten">
               Faciliteiten
             </Navbar.Link>
             <Navbar.Link href="http://localhost:3000/#zakelijk">
