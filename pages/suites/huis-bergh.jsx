@@ -135,7 +135,7 @@ export default function HuisBergh() {
               <li className="flex items-center space-x-2 py-1">
                 <IoRestaurant className="text-2xl" />
                 <span>
-                  Authentieke aziatische "A La Carte" gerechten bij Chinees
+                  Authentieke aziatische A La Carte gerechten bij Chinees
                   restaurant Sin Chen.
                 </span>
               </li>
