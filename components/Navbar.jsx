@@ -51,7 +51,7 @@ export default function NavbarComponent() {
     >
       <Flowbite theme={{ theme: customTheme }}>
         <Navbar
-          className={`md:py-6 ${
+          className={`md:py-6 transition duration-300 ease-in ${
             hasScrolled ? "bg-[--navbar-primary]" : "bg-transparent"
           } `}
         >
