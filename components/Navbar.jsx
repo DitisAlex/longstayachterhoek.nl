@@ -62,6 +62,11 @@ export default function NavbarComponent() {
               Zakelijk
             </li>
           </Link>
+          <Link href="/#contact">
+            <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+              Contact
+            </li>
+          </Link>
         </ul>
         <div onClick={handleToggleNav} className="lg:hidden p-3 cursor-pointer">
           <AiOutlineMenu size={20} />
@@ -127,24 +132,32 @@ export default function NavbarComponent() {
                   Zakelijk
                 </li>
               </Link>
+              <Link href="/#contact">
+                <li
+                  onClick={() => setToggleNav(false)}
+                  className="py-4 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out"
+                >
+                  Contact
+                </li>
+              </Link>
             </ul>
             <div className="pt-48">
               <p className="uppercase tracking-widest font-semibold text-l">
-                Volg ons op
+                Blijft op de hoogte
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-around my-4 w-full sm:w-[80%]">
                 <Link href="https://instagram.com/longstayachterhoek">
-                  <div className="rounded-full shadow-md shadow-gray-400 p-3">
+                  <div className="rounded-full bg-[--navbar-primary] text-white shadow-md shadow-gray-400 p-4">
                     <FaInstagram />
                   </div>
                 </Link>
                 <Link href="https://www.facebook.com/profile.php?id=61557442225259">
-                  <div className="rounded-full shadow-md shadow-gray-400 p-3">
+                  <div className="rounded-full bg-[--navbar-primary] text-white shadow-md shadow-gray-400 p-4">
                     <FaFacebookF />
                   </div>
                 </Link>
                 <Link href="https://www.booking.com">
-                  <div className="rounded-full shadow-md shadow-gray-400 p-3">
+                  <div className="rounded-full bg-[--navbar-primary] text-white shadow-md shadow-gray-400 p-4">
                     <TbBrandBooking />
                   </div>
                 </Link>

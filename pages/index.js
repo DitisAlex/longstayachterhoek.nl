@@ -4,6 +4,7 @@ import Landing from "../components/Landing";
 import About from "../components/About";
 import Suites from "../components/Suites";
 import Facilities from "../components/Facilities";
+import Business from "../components/Business";
 
 import { ThemeModeScript } from "flowbite-react";
 
@@ -42,6 +43,7 @@ export default function Index() {
       <About />
       <Suites />
       <Facilities />
+      <Business />
     </div>
   );
 }
