@@ -1,10 +1,45 @@
-import { Button, Label, TextInput, Textarea } from "flowbite-react";
+import React, { useRef, useState } from "react";
+import { Button, Label, TextInput, Textarea, Alert } from "flowbite-react";
+
 import { HiMail } from "react-icons/hi";
 import { IoLocationSharp, IoPersonCircleSharp } from "react-icons/io5";
 import { FaPhoneAlt, FaBuilding, FaClock } from "react-icons/fa";
 import { TbHexagonLetterKFilled } from "react-icons/tb";
+import { IoIosCheckmarkCircle } from "react-icons/io";
+import { MdSmsFailed } from "react-icons/md";
+
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+  const form = useRef();
+  const [successAlert, setSuccessAlert] = useState(false);
+  const [failureAlert, setFailureAlert] = useState(false);
+
+  const submitForm = (e) => {
+    e.preventDefault();
+
+    try {
+      emailjs
+        .sendForm(
+          process.env.NEXT_PUBLIC_SERVICE_ID,
+          process.env.NEXT_PUBLIC_TEMPLATE_ID,
+          form.current,
+          {
+            publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
+          }
+        )
+        .then((result) => {
+          if (result) {
+            setSuccessAlert(true);
+            e.target.reset();
+          }
+        });
+    } catch (error) {
+      setFailureAlert(true);
+      e.target.reset();
+    }
+  };
+
   return (
     <div id="contact" className="w-full p-2 py-24">
       <div className="max-w-[1240px] m-auto">
@@ -17,7 +52,11 @@ export default function Contact() {
           incidunt vel ullam reiciendis praesentium maxime quae repellendus
           doloribus, voluptates quos.
         </p>
-        <form className="py-4 md:grid grid-cols-2 gap-4">
+        <form
+          className="py-4 md:grid grid-cols-2 gap-4"
+          ref={form}
+          onSubmit={submitForm}
+        >
           <div className="col-span-1">
             <p className="uppercase my-2 border-b-2 border-gray-300">
               Persoonlijke Gegevens
@@ -27,7 +66,7 @@ export default function Contact() {
                 <Label htmlFor="name" value="Naam*" />
               </div>
               <TextInput
-                id="name"
+                name="name"
                 type="text"
                 icon={IoPersonCircleSharp}
                 placeholder="John Doe"
@@ -39,7 +78,7 @@ export default function Contact() {
                 <Label htmlFor="email" value="Email*" />
               </div>
               <TextInput
-                id="email"
+                name="email"
                 type="email"
                 icon={HiMail}
                 placeholder="info@longstayachterhoek.nl"
@@ -51,7 +90,7 @@ export default function Contact() {
                 <Label htmlFor="adress" value="Adres*" />
               </div>
               <TextInput
-                id="adress"
+                name="adress"
                 type="text"
                 icon={IoLocationSharp}
                 placeholder="Straat 123, 1234 AB Plaats"
@@ -63,7 +102,7 @@ export default function Contact() {
                 <Label htmlFor="tel" value="Telefoonnummer*" />
               </div>
               <TextInput
-                id="tel"
+                name="tel"
                 type="number"
                 icon={FaPhoneAlt}
                 placeholder="+31 6 12345678"
@@ -81,7 +120,7 @@ export default function Contact() {
                 <Label htmlFor="companyname" value="Bedrijfsnaam" />
               </div>
               <TextInput
-                id="companyname"
+                name="companyname"
                 type="text"
                 icon={FaBuilding}
                 placeholder="Longstay Achterhoek B.V."
@@ -89,10 +128,10 @@ export default function Contact() {
             </div>
             <div className="mb-2">
               <div className="block uppercase">
-                <Label htmlFor="adress" value="Adres" />
+                <Label htmlFor="companyadress" value="Adres" />
               </div>
               <TextInput
-                id="adress"
+                name="companyadress"
                 type="text"
                 icon={IoLocationSharp}
                 placeholder="Straat 123, 1234 AB Plaats"
@@ -103,7 +142,7 @@ export default function Contact() {
                 <Label htmlFor="kvk" value="KVK nummer" />
               </div>
               <TextInput
-                id="kvk"
+                name="kvk"
                 type="number"
                 icon={TbHexagonLetterKFilled}
                 placeholder="12345678"
@@ -116,7 +155,7 @@ export default function Contact() {
                 <Label htmlFor="duration" value="Verblijfsduratie" />
               </div>
               <TextInput
-                id="duration"
+                name="duration"
                 type="text"
                 icon={FaClock}
                 placeholder="Twee nachten"
@@ -126,9 +165,9 @@ export default function Contact() {
           <div className="col-span-2">
             <div className="mb-2">
               <div className="block uppercase">
-                <Label htmlFor="duration" value="Eventuele extra opmerkingen" />
+                <Label htmlFor="extra" value="Eventuele extra opmerkingen" />
               </div>
-              <Textarea id="duration" icon={TbHexagonLetterKFilled} rows={4} />
+              <Textarea name="extra" rows={4} />
             </div>
           </div>
           <Button
@@ -137,6 +176,36 @@ export default function Contact() {
           >
             Vestuur bericht
           </Button>
+          <Alert
+            className={`fixed bottom-0 right-0 m-4 ease-in-out ${
+              successAlert ? "block" : "hidden"
+            }`}
+            color="success"
+            icon={IoIosCheckmarkCircle}
+            withBorderAccent
+            onDismiss={() => setSuccessAlert(false)}
+          >
+            <span className="font-xs md:font-medium">
+              Het bericht is succesvol verzonden! <br />
+              <br className="md:hidden" />
+              Wij nemen zo spoedig mogelijk contact met u op.
+            </span>
+          </Alert>
+          <Alert
+            className={`fixed bottom-0 right-0 m-4 ease-in-out ${
+              failureAlert ? "block" : "hidden"
+            }`}
+            color="failure"
+            icon={MdSmsFailed}
+            withBorderAccent
+            onDismiss={() => setFailureAlert(false)}
+          >
+            <span className="font-xs md:font-medium">
+              Er is iets misgegaan! <br />
+              <br className="md:hidden" />
+              Probeer later uw bericht opnieuw te versturen.
+            </span>
+          </Alert>
         </form>
       </div>
     </div>
