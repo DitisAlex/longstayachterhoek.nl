@@ -6,6 +6,7 @@ import Suites from "../components/Suites";
 import Facilities from "../components/Facilities";
 import Business from "../components/Business";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 import { ThemeModeScript } from "flowbite-react";
 
@@ -46,6 +47,7 @@ export default function Index() {
       <Facilities />
       <Business />
       <Contact />
+      <Footer />
     </div>
   );
 }
