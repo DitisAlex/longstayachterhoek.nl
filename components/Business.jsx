@@ -15,7 +15,7 @@ export default function Business() {
         </p>
         <p className="text-[--color-text]">De prijzen zijn als volgt:</p>
         <div className="md:grid grid-cols-4  py-4">
-          <Card className="col-span-1 py-2 my-2 rounded-r-none">
+          <Card className="col-span-1 py-2 m-2 md:mx-0 md:rounded-r-none">
             <h5 className="mb-4 text-xl font-medium text-gray-500 ">
               Vanaf 2 maanden
             </h5>
@@ -27,7 +27,7 @@ export default function Business() {
               </span>
             </div>
           </Card>
-          <Card className="col-span-1 py-2 border-8 border-double border-[--navbar-primary]">
+          <Card className="col-span-1 py-2 border-8 border-[--navbar-primary]">
             <h5 className="mb-4 text-xl font-medium text-gray-500 ">
               1 tot 2 maanden
             </h5>
@@ -41,7 +41,7 @@ export default function Business() {
               </span>
             </div>
           </Card>
-          <Card className="col-span-1 py-2 my-2 rounded-none">
+          <Card className="col-span-1 py-2 m-2 md:mx-0 md:rounded-none">
             <h5 className="mb-4 text-xl font-medium text-gray-500 ">
               14 dagen tot 1 maand
             </h5>
@@ -55,7 +55,7 @@ export default function Business() {
               </span>
             </div>
           </Card>
-          <Card className="col-span-1 py-2 my-2 rounded-l-none">
+          <Card className="col-span-1 py-2 m-2 md:mx-0 md:rounded-l-none">
             <h5 className="mb-4 text-xl font-medium text-gray-500 ">
               7 dagen tot 14 dagen
             </h5>
