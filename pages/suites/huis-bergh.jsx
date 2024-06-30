@@ -3,7 +3,7 @@ import { Flowbite } from "flowbite-react";
 import NavbarComponent from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
-
+import { useEffect } from "react";
 import logo from "../../public/logo.jpg";
 
 import {
@@ -21,6 +21,10 @@ import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
 
 export default function HuisBergh() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   const customTheme = {
     button: {
       color: {
