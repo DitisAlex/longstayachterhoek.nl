@@ -1,7 +1,6 @@
 "use client";
 
 import { Footer } from "flowbite-react";
-import logo from "../public/logo.jpg";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandBooking } from "react-icons/tb";
@@ -9,8 +8,8 @@ import { TbBrandBooking } from "react-icons/tb";
 export default function FooterComponent() {
   return (
     <div className="bg-[--navbar-primary]">
-      <Footer container className="bg-[--navbar-primary] max-w-[1240px] m-auto">
-        <div className="w-full">
+      <Footer container className="bg-[--navbar-primary]">
+        <div className="w-full max-w-[1240px] m-auto">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div className="text-white">
               <Footer.Brand
