@@ -54,7 +54,7 @@ export default function Contact() {
                 id="adress"
                 type="text"
                 icon={IoLocationSharp}
-                placeholder="Straatnaam 123, 1234 AB Plaatsnaam"
+                placeholder="Straat 123, 1234 AB Plaats"
                 required
               />
             </div>
@@ -95,7 +95,7 @@ export default function Contact() {
                 id="adress"
                 type="text"
                 icon={IoLocationSharp}
-                placeholder="Straatnaam 123, 1234 AB Plaatsnaam"
+                placeholder="Straat 123, 1234 AB Plaats"
               />
             </div>
             <div className="mb-2">
