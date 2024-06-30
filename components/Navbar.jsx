@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
