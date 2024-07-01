@@ -1,9 +1,12 @@
 "use client";
-
+import Link from "next/link";
+import Image from "next/image";
 import { Footer } from "flowbite-react";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandBooking } from "react-icons/tb";
+
+import logo from "../public/logo2.png";
 
 export default function FooterComponent() {
   return (
@@ -11,12 +14,10 @@ export default function FooterComponent() {
       <Footer container className="bg-[--navbar-primary]">
         <div className="w-full max-w-[1240px] m-auto">
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-            <div className="text-white">
-              <Footer.Brand
-                href="#"
-                src="https://flowbite.com/docs/images/logo.svg"
-                alt="Logo"
-              />
+            <div className="flex justify-center">
+              <Link href="/">
+                <Image src={logo} width={150} height={150} alt="Logo" />
+              </Link>
             </div>
             <Footer.LinkGroup className="text-white uppercase">
               <Footer.Link href="#">Home</Footer.Link>

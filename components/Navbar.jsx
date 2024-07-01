@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandBooking } from "react-icons/tb";
 
+import logo from "../public/logo2.png";
 export default function NavbarComponent() {
   const [toggleNav, setToggleNav] = useState(false);
   const handleToggleNav = () => {
@@ -29,7 +30,7 @@ export default function NavbarComponent() {
 
   return (
     <div
-      className={`z-50 h-20 fixed w-full top-0 ${
+      className={`z-50 h-30 fixed w-full top-0 ${
         hasScrolled ? "shadow-md" : "shadow-none"
       }`}
     >
@@ -39,12 +40,7 @@ export default function NavbarComponent() {
         }`}
       >
         <Link href="/">
-          <Image
-            src="https://flowbite.com/docs/images/logo.svg"
-            width={50}
-            height={50}
-            alt="Logo"
-          />
+          <Image src={logo} width={175} height={175} alt="Logo" />
         </Link>
         <ul className="hidden lg:flex">
           <Link href="/#about">
