@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Queensides';
+  src: url('/fonts/queensides.ttf') format('truetype');
+}
+
 @layer base {
   /* Hide number input arrows
   https://stackoverflow.com/questions/71296535/how-to-remove-arrow-on-input-type-number-with-tailwind-css
@@ -31,6 +36,6 @@
 
 
   body {
-    @apply bg-[--color-bg] font-montserrat
+    @apply bg-[--color-bg] font-queensides
   }
 }

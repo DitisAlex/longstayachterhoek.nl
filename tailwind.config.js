@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        queensides: ["Queensides", "sans-serif"],
       },
     },
   },
