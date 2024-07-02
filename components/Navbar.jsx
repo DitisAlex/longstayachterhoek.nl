@@ -40,7 +40,13 @@ export default function NavbarComponent() {
         }`}
       >
         <Link href="/">
-          <Image src={logo} width={175} height={175} alt="Logo" />
+          <Image
+            src={logo}
+            width={150}
+            height={150}
+            alt="Logo"
+            className="m-2"
+          />
         </Link>
         <ul className="hidden lg:flex">
           <Link href="/#about">
