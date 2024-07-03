@@ -39,7 +39,7 @@ export default function NavbarComponent() {
           hasScrolled ? "bg-[--navbar-primary]" : "bg-transparent"
         }`}
       >
-        <Link href="/">
+        <Link href="/" className="md:block flex flex-grow justify-center">
           <Image
             src={logo}
             width={150}
