@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandBooking } from "react-icons/tb";
 
-import logo from "../public/logo2.png";
+import logo from "../public/logo_horizontal.png";
 
 export default function FooterComponent() {
   return (
@@ -16,7 +16,7 @@ export default function FooterComponent() {
           <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
             <div className="flex justify-center">
               <Link href="/">
-                <Image src={logo} width={150} height={150} alt="Logo" />
+                <Image src={logo} width={200} height={200} alt="Logo" />
               </Link>
             </div>
             <Footer.LinkGroup className="text-white uppercase">

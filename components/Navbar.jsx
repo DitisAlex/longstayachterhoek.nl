@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandBooking } from "react-icons/tb";
 
-import logo from "../public/logo2.png";
+import logo from "../public/logo_horizontal.png";
 export default function NavbarComponent() {
   const [toggleNav, setToggleNav] = useState(false);
   const handleToggleNav = () => {
@@ -42,10 +42,10 @@ export default function NavbarComponent() {
         <Link href="/" className="md:block flex flex-grow justify-center">
           <Image
             src={logo}
-            width={150}
-            height={150}
+            width={250}
+            height={250}
             alt="Logo"
-            className="m-2"
+            className="mt-2"
           />
         </Link>
         <ul className="hidden lg:flex">
