@@ -20,7 +20,7 @@ import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
 
-export default function HuisBergh() {
+export default function Padevoort() {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
@@ -48,7 +48,7 @@ export default function HuisBergh() {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2">
           <h2 className="py-2 text-white text-2xl md:text-4xl font-semibold">
-            Huis Bergh
+            De Padevoort
           </h2>
         </div>
       </div>
