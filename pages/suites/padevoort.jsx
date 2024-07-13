@@ -12,13 +12,23 @@ import {
   FaUmbrellaBeach,
   FaBed,
   FaSmokingBan,
+  FaChair,
+  FaToilet,
+  FaCoffee,
+  FaCalendarWeek,
 } from "react-icons/fa";
 import { PiTelevisionDuotone } from "react-icons/pi";
-import { TbToolsKitchen3, TbMassage } from "react-icons/tb";
-import { MdPets, MdForest } from "react-icons/md";
+import {
+  TbToolsKitchen3,
+  TbMassage,
+  TbAirConditioning,
+  TbHanger,
+} from "react-icons/tb";
+import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
+import { BsSafeFill } from "react-icons/bs";
 
 export default function Padevoort() {
   useEffect(() => {
@@ -57,10 +67,43 @@ export default function Padevoort() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
             <p className="text-[--color-text]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-              eius, ea similique qui dignissimos nemo quod cupiditate sunt
-              quidem incidunt vel ullam reiciendis praesentium maxime quae
-              repellendus doloribus, voluptates quos.
+              Kenmerken van dit appartement:
+              <ul>
+                <li>
+                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  Door de aanwezige ruimte kunt u genieten van een gezellige
+                  woonkamer/keuken met aangrenzend een eigen terras in onze
+                  binnen patio.
+                </li>
+                <li>
+                  •{" "}
+                  <span className="font-semibold">
+                    Volledig uitgeruste keuken:
+                  </span>{" "}
+                  Bereid uw favoriete maaltijden met gemak dankzij onze moderne
+                  keukenfaciliteiten met o.a. vaatwasser, combimagnetron/oven,
+                  waterkoker en koffiezetapparaat.
+                </li>
+                <li>
+                  • <span className="font-semibold">Privé badkamer:</span> Uw
+                  comfort is onze prioriteit, daarom beschikt ons appartement
+                  over een eigen badkamer voor uw gemak. Deze beschikt over een
+                  inloopdouche, een dubbele wastafel, design radiator en
+                  haarfohn.
+                </li>
+                <li>
+                  • <span className="font-semibold">Gratis Wi-Fi:</span> Blijf
+                  verbonden met uw dierbaren en de rest van de wereld met ons
+                  gratis draadloos internet.
+                </li>
+                <li>
+                  • <span className="font-semibold">Centrale locatie:</span> Ons
+                  appartement bevindt zich vlakbij belangrijke uitvalswegen. Op
+                  loopafstand van het Montferlandse bos, het busstation, een
+                  supermarkt en vele eetgelegenheden (inclusief dagelijks
+                  ontbijt vanaf 07:00 bij BROODS).
+                </li>
+              </ul>
             </p>
           </div>
           <div className="py-4">
@@ -72,11 +115,15 @@ export default function Padevoort() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <IoMdResize className="text-2xl" />
-                <span>65 m²</span>
+                <span>49 m²</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Kingsize Bed</span>
+                <span>Tweepersoonsbed</span>
+              </li>
+              <li className="flex items-center space-x-2 py-1">
+                <TbToolsKitchen3 className="text-2xl" />
+                <span>Kitchenette</span>
               </li>
             </ul>
           </div>
@@ -93,18 +140,52 @@ export default function Padevoort() {
                   <span>Flatscreen-tv</span>
                 </li>
                 <li className="flex items-center space-x-2 py-1">
-                  <TbToolsKitchen3 className="text-2xl" />
-                  <span>Eigen kitchenette</span>
+                  <TbAirConditioning className="text-2xl" />
+                  <span>Airconditioning</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <FaUmbrellaBeach className="text-2xl" />
+                  <span>Patio & Terras</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <MdTableRestaurant className="text-2xl" />
+                  <span>Bureau & eettafel</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <FaChair className="text-2xl" />
+                  <span>Zithoek met salontafel</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <FaShower className="text-2xl" />
+                  <span>Badkamer met inloopdouche</span>
                 </li>
               </ul>
               <ul>
                 <li className="flex items-center space-x-2 py-1">
-                  <FaShower className="text-2xl" />
-                  <span>Eigen badkamer</span>
+                  <TbToolsKitchen3 className="text-3xl" />
+                  <span>
+                    Kitchenette (afwasmachine / combi oven / koelkast & vriezer)
+                  </span>
                 </li>
                 <li className="flex items-center space-x-2 py-1">
-                  <FaUmbrellaBeach className="text-2xl" />
-                  <span>Balkon</span>
+                  <FaToilet className="text-2xl" />
+                  <span>Toilet</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <FaCoffee className="text-2xl" />
+                  <span>Koffie- & theefaciliteiten</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <BsSafeFill className="text-2xl" />
+                  <span>Kluisje</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <TbHanger className="text-2xl" />
+                  <span>Garderobe</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <FaCalendarWeek className="text-2xl" />
+                  <span>Wekelijkse linnengoed</span>
                 </li>
               </ul>
             </div>
@@ -125,7 +206,7 @@ export default function Padevoort() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Beddengoed wordt wekelijks vervangen om 9:00</span>
+                <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
             </ul>
           </div>

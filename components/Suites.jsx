@@ -34,10 +34,26 @@ export default function Suites() {
           Suites
         </p>
         <p className="py-2 text-[--color-text]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-          eius, ea similique qui dignissimos nemo quod cupiditate sunt quidem
-          incidunt vel ullam reiciendis praesentium maxime quae repellendus
-          doloribus, voluptates quos.
+          Longstay Achterhoek, ‘a home away from home’. De naam zegt het al.
+          Onze suites staan voor comfort, gemak en een gevoel van thuis komen.
+          <br />
+          <br />
+          Onze negen verschillende appartementen vertegenwoordigen allen een
+          ander thema. Geen standaard ‘hotel-chique’ maar een ware beleving
+          tijdens uw verblijf. Of u nu voor zaken of uw plezier bij ons
+          verblijft, onze appartementen bieden alle gemakken van thuis op een
+          zeer unieke locatie in de Achterhoek aan de voet van het Montferlandse
+          bos.
+          <br />
+          <br />
+          Temidden van veel groen en een rustige omgeving maar toch dichtbij
+          uitvalswegen, een busstation, een supermarkt en vele eetgelegenheden
+          waaronder een uitstekend Aziatisch specialiteiten restaurant van onze
+          Longstay zelf, namelijk Sin Chen. Dit restaurant is al meer dan 35 een
+          begrip in de omgeving en verre omstreken.
+          <br />
+          <br /> U kunt hier zelfs uw gerechten afhalen en op uw eigen privé
+          terras genieten met uitzicht op het Montferlandse bos.
         </p>
         <div
           className="underline cursor-pointer flex items-center md:hidden"

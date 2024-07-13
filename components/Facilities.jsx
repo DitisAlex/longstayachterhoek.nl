@@ -8,51 +8,92 @@ export default function Facilities() {
           Faciliteiten
         </p>
         <p className="py-2 text-[--color-text]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-          eius, ea similique qui dignissimos nemo quod cupiditate sunt quidem
-          incidunt vel ullam reiciendis praesentium maxime quae repellendus
-          facere iste ex tempore, veritatis labore asperiores suscipit et alias.
+          Overnacht u binnenkort bij Longstay Achterhoek of bent u nog op zoek
+          naar een geschikt hotel? Dan kunnen de faciliteiten van het hotel een
+          rol spelen in uw keuze.
+          <br /> Longstay Achterhoek biedt verschillende faciliteiten om uw
+          verblijf zo prettig mogelijk te maken.
         </p>
         <div className="md:grid grid-cols-3 gap-10 py-4">
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">Iets Leuks</h3>
+            <h3 className="font-semibold text-lg tracking-wider">
+              Bestel takeaway
+            </h3>
             <p className="py-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              tenetur.
+              Heeft u een drukke dag gehad en wilt u volledig uitrusten op uw
+              kamer? Of bent u samen met uw partner een romantisch nachtje weg?
+              Bij Longstay Achterhoek bestelt u uw favoriete gerechten bij het
+              aangrenzende{" "}
+              <Link href="https://sinchen.nl/" target="_blank">
+                <span className="underline text-[--navbar-primary]">
+                  specialiteiten restaurant Sin Chen
+                </span>
+              </Link>{" "}
+              en u geniet hiervan op uw eigen privé terras.
             </p>
-            <Link href="https://www.google.com" target="_blank">
-              <p className="underline text-[--navbar-primary]">Lees meer</p>
-            </Link>
           </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">Iets Leuks</h3>
+            <h3 className="font-semibold text-lg tracking-wider">Auto huren</h3>
             <p className="py-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              tenetur.
+              Bent u met het openbaar vervoer gekomen of beschikt u niet over
+              een auto? Vraag ons dan voor uw aankomst in ons hotel naar de
+              mogelijkheden om een auto te huren.
             </p>
-            <Link href="https://www.google.com" target="_blank">
-              <p className="underline text-[--navbar-primary]">Lees meer</p>
-            </Link>
-          </div>{" "}
+          </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">Iets Leuks</h3>
+            <h3 className="font-semibold text-lg tracking-wider">
+              Fiets huren
+            </h3>
             <p className="py-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              tenetur.
+              Wilt u de omgeving per fiets verkennen? Dan kunt u in het
+              aangrenzende dorp ‘s-Heerenberg bij{" "}
+              <Link
+                href="https://nijlandtweewielers.nl/fietsverhuur"
+                target="_blank"
+              >
+                <span className="underline text-[--navbar-primary]">
+                  Nijland Tweeielers
+                </span>
+              </Link>{" "}
+              een fiets huren. Bekijk deze site voor de mogelijkheden tijdens uw
+              verblijf.
             </p>
-            <Link href="https://www.google.com" target="_blank">
-              <p className="underline text-[--navbar-primary]">Lees meer</p>
-            </Link>
-          </div>{" "}
+          </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">Iets Leuks</h3>
+            <h3 className="font-semibold text-lg tracking-wider">
+              Mountainbike huren
+            </h3>
             <p className="py-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-              tenetur.
+              Wilt u net als vele anderen onze fantastische MTB route verkennen?
+              Dan kunt u ook bij{" "}
+              <Link
+                href="https://bercbike.nl/losse-verhuur-mtb/"
+                target="_blank"
+              >
+                <span className="underline text-[--navbar-primary]">
+                  Berc Bike
+                </span>
+              </Link>{" "}
+              een mountainbike of gravelbike huren. Vraag naar de mogelijkheden
+              bij dit bedrijf voor aankomst van uw verblijf.
             </p>
-            <Link href="https://www.google.com" target="_blank">
-              <p className="underline text-[--navbar-primary]">Lees meer</p>
-            </Link>
+          </div>
+          <div className="col-span-1 py-2">
+            <h3 className="font-semibold text-lg tracking-wider">
+              Verblijf met uw huisdier
+            </h3>
+            <p className="py-1">
+              Wilt u graag met uw trouwe viervoeter verblijven in ons
+              apart-hotel? In de meeste appartementen is een huisdier (tegen
+              betaling) toegestaan. En het Montferlandse bos kent een prachtige
+              loslooproute voor uw trouwe viervoeter.
+              <br />
+              <br />
+              <span className="italic">
+                Enkel bij onze appartementen De Lange Wei en de Padevoort is dit
+                helaas niet toegestaan.
+              </span>
+            </p>
           </div>
         </div>
       </div>
