@@ -271,12 +271,12 @@ export default function Padevoort() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Inspiratie</h2>
             <p className="py-2 text-[--color-text]">
-              Ons Padevoort appartement ademt de sfeer van een prachtig 'klein'
-              kasteel dat Zeddam rijk is. De Padevoort is een kleine voormalige
-              Berghse havezate en voormalig adellijk huis in de buurtschap
-              Vinkwijk in het dorp Zeddam. Het huidige huis ligt ten oosten van
-              het dorp en stamt uit de zeventiende eeuw. De naam Padevoort
-              betekent 'doorwaadbare plaats'.
+              Ons Padevoort appartement ademt de sfeer van een prachtig
+              &#39;klein&#39; kasteel dat Zeddam rijk is. De Padevoort is een
+              kleine voormalige Berghse havezate en voormalig adellijk huis in
+              de buurtschap Vinkwijk in het dorp Zeddam. Het huidige huis ligt
+              ten oosten van het dorp en stamt uit de zeventiende eeuw. De naam
+              Padevoort betekent &#39;doorwaadbare plaats&#39;.
               <br />
               <br />
               Padevoort wordt rond 1272 genoemd onder de naam Pedelvuort als
@@ -285,10 +285,10 @@ export default function Padevoort() {
               1281 overdraagt aan Heer Jacob, pastoor van Zeddam. Aangenomen
               wordt dat het huis op deze akkers is gebouwd en dat het daar zijn
               naam aan ontleent. In 1375 is er sprake van een geslacht Van den
-              Padevoort dat gerekend wordt tot de riddermatigen van 'het land
-              van den Bergh' met de havezate Padevoort als stamhuis. In 1666
-              kwam het door een naasting in het bezit van de Heren van den Bergh
-              en werd het als jachthuis ingericht. In 1875 werd het gebouw
+              Padevoort dat gerekend wordt tot de riddermatigen van &#39;het
+              land van den Bergh&#39; met de havezate Padevoort als stamhuis. In
+              1666 kwam het door een naasting in het bezit van de Heren van den
+              Bergh en werd het als jachthuis ingericht. In 1875 werd het gebouw
               verkocht aan de Franciscanessen van Heythuysen en vervolgens als
               Sint-Jozefklooster ingericht. De zusters vestigden er tevens een
               meisjesschool en een gebouw voor wijkverpleging (tot 1949

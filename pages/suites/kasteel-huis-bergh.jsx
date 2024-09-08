@@ -273,11 +273,11 @@ export default function KasteelHuisBergh() {
             <p className="py-2 text-[--color-text]">
               Dit appartement ademt de sfeer van een van de mooiste kastelen die
               Nederland rijk is, Kasteel Huis Bergh. Huis Bergh is een kasteel
-              en museum in de stad 's-Heerenberg in de gemeente Montferland, in
-              de Nederlandse provincie Gelderland. Huis Bergh was het stamslot
-              van de graven van Bergh. Het Land van den Bergh was vóór 1486 een
-              bannerij en vanaf 1486 (rijks-)graafschap Bergh. Huis Bergh is de
-              grootste waterburcht in Nederland.
+              en museum in de stad &#39;s-Heerenberg in de gemeente Montferland,
+              in de Nederlandse provincie Gelderland. Huis Bergh was het
+              stamslot van de graven van Bergh. Het Land van den Bergh was vóór
+              1486 een bannerij en vanaf 1486 (rijks-)graafschap Bergh. Huis
+              Bergh is de grootste waterburcht in Nederland.
               <br />
               <br />
               Huis Bergh is van de 12e eeuw tot en met de 20e eeuw bewoond

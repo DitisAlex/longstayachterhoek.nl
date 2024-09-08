@@ -271,7 +271,7 @@ export default function UitkijktorenHulzenberg() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Inspiratie</h2>
             <p className="py-2 text-[--color-text]">
-              Ons appartement 'de Uitkijktoren ademt de sfeer van een van de
+              Ons appartement &#39;de Uitkijktoren ademt de sfeer van een van de
               prachtige bezienswaardigheden die onze regio rijk is. Deze 21
               meter hoge uitkijktoren ligt in het Bergerbos te Stokkum. De
               Hulzenberg is gebouwd in opdracht van de gemeente en gemaakt van
