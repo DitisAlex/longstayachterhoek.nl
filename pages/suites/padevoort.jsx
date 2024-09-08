@@ -292,7 +292,7 @@ export default function Padevoort() {
               verkocht aan de Franciscanessen van Heythuysen en vervolgens als
               Sint-Jozefklooster ingericht. De zusters vestigden er tevens een
               meisjesschool en een gebouw voor wijkverpleging (tot 1949
-              "Vereeniging van Vrouwen").[1] In 1968 werd de Padevoort
+              &#34;Vereeniging van Vrouwen&#34;).[1] In 1968 werd de Padevoort
               aangekocht door H.J. Kremer, een aannemer uit Laag-Keppel, die De
               Padevoort restaureerde en in 1978 doorverkocht aan een particulier
               die het in 1994 verkocht aan de huidige eigenaar (anno 2015). Het
