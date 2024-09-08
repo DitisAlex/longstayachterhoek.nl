@@ -137,7 +137,7 @@ export default function Facilities() {
                 <span className="underline text-[--navbar-primary]">
                   CLG Sports
                 </span>{" "}
-                in 's-Heerenberg
+                in &#39;s-Heerenberg
               </Link>
               .
             </p>

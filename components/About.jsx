@@ -11,8 +11,8 @@ export default function About() {
           </p>
           <p className="py-2 text-[--color-text]">
             Longstay Achterhoek wordt gerund door een gepassioneerde familie die
-            als motto heeft: 'stilstand is achteruitgang' en die tevens erg
-            trots is op dit prachtige stukje Achterhoek aan de voet van de
+            als motto heeft: &#39;stilstand is achteruitgang&#39; en die tevens
+            erg trots is op dit prachtige stukje Achterhoek aan de voet van de
             Montferlandse bossen. Onze longstay appartementen zijn naast
             recreatief gebruik uiterst geschikt voor de zakelijke markt.
             <br />

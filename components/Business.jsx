@@ -12,8 +12,9 @@ export default function Business() {
           expats en zakenreizigers zich snel thuis kunnen voelen. Een verblijf
           in een van onze longstay appartementen geeft u meer ruimte en meer
           privacy dan een verblijf in een hotel. Een long stay zakelijk verblijf
-          zal snel worden ervaren als 'a home away from home', van alle gemakken
-          voorzien met natuurlijk ook een schoonmaakservice en wasgelegenheid.
+          zal snel worden ervaren als &#39;a home away from home&#39;, van alle
+          gemakken voorzien met natuurlijk ook een schoonmaakservice en
+          wasgelegenheid.
         </p>
         <p className="text-[--color-text]">De prijzen zijn als volgt:</p>
         <div className="md:grid grid-cols-4  py-4">
