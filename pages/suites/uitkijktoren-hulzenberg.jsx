@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function UitkijktorenHulzenberg() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras met uitzet
                   op het Montferlandse bos.
@@ -104,7 +109,7 @@ export default function UitkijktorenHulzenberg() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -119,7 +124,7 @@ export default function UitkijktorenHulzenberg() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Tweepersoonsbed</span>
+                <span>Twee eenpersoonsbedden</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <TbToolsKitchen3 className="text-2xl" />
@@ -208,6 +213,10 @@ export default function UitkijktorenHulzenberg() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,30 @@ export default function UitkijktorenHulzenberg() {
                 />
               </Carousel>
             </div>
+          </div>
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              Ons appartement 'de Uitkijktoren ademt de sfeer van een van de
+              prachtige bezienswaardigheden die onze regio rijk is. Deze 21
+              meter hoge uitkijktoren ligt in het Bergerbos te Stokkum. De
+              Hulzenberg is gebouwd in opdracht van de gemeente en gemaakt van
+              het hout dat uit het Bergerbos komt. Sinds 2015 is de Hulzenberg
+              ook toegankelijk voor toeristen. <br />
+              <br /> De Hulzenberg is een mooie stop als je door het prachtige
+              Bergerbos aan het wandelen bent. Een kilometer van de uitkijktoren
+              is er een parkeerplaats, waardoor de Hulzenberg via grote en
+              kleine wandelroutes bereikbaar is. De toren is 21 meter hoog en
+              bevindt zich meer dan 100 meter boven NAP. Dit zorgt ervoor dat er
+              een fantastisch uitzicht is. Boven op de toren staan de gebieden
+              aangegeven waar u naar kijkt. Op deze manier ziet u van bovenaf
+              wat het mooie Montferland, de Achterhoek en zelfs Duitsland te
+              bieden heeft. De uitkijktoren is opgenomen in diverse wandelroutes
+              in het Bergherbos. Alleen al het wandelen door Montferland is
+              prachtig. De route naar de uitkijktoren is goed te doen. Eenmaal
+              boven ben je gauw even stil om daarna te genieten van het
+              geweldige uitzicht.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">

@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function Bergherbos() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras met uitzet
                   op het Montferlandse bos.
@@ -104,7 +109,7 @@ export default function Bergherbos() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -119,7 +124,7 @@ export default function Bergherbos() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Tweepersoonsbed</span>
+                <span>Twee eenpersoonsbedden</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <TbToolsKitchen3 className="text-2xl" />
@@ -208,6 +213,10 @@ export default function Bergherbos() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,38 @@ export default function Bergherbos() {
                 />
               </Carousel>
             </div>
+          </div>
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              Dit appartement ademt de sfeer van het prachtige bergherbos. Het
+              Bergherbos in Gelderland strekt zich uit over de hellingen van de
+              stuwwal van Montferland. Dat levert soms pittige routes op, maar
+              ook prachtige vergezichten en verrassende doorkijkjes. Zo kijk je
+              vanaf uitkijktoren Hulzenberg helemaal tot aan de Veluwezoom en
+              het Reichswald bij Kleef (Dld). De wandelroutes, in lengte
+              variërend van 2 tot 7 kilometer, brengen je langs de mooiste
+              plekjes van het gebied.
+              <br />
+              <br />
+              De stuwwal waar het Bergherbos op ligt ontstond toen zo'n 200.000
+              jaar geleden gigantische ijsmassa’s vanuit het noorden bergen van
+              grond en stenen voor zich uit stuwden. Het ijs smolt later weg en
+              de stuwwallen bleven achter. Ze dragen vele sporen uit het
+              verleden. Er is duizenden jaren gewoond en geploegd, er is
+              ijzererts gewonnen en gevochten, er zijn bomen gekapt en weer
+              nieuwe geplant.
+              <br />
+              <br />
+              Wandelen, fietsen, mountainbiken, paardrijden, spelen of vakantie
+              vieren, het kan allemaal in het Bergherbos. In het gebied liggen
+              gemarkeerde wandelroutes langs de mooiste bosranden, heideveldjes
+              en akkers. De lengte varieert van 2 tot 7 kilometer. Combineer je
+              de routes dan kun je nog langer wandelen. Voor mountainbikers ligt
+              er een speciale route met veel hoogteverschillen
+              (vergunningverplicht). Ruiters en menners kunnen hier hun eigen
+              route uitstippelen. Ook voor hen is een vergunning verplicht.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">

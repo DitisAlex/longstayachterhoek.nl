@@ -47,10 +47,8 @@ export default function Contact() {
           Contact
         </p>
         <p className="py-2 text-[--color-text]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-          eius, ea similique qui dignissimos nemo quod cupiditate sunt quidem
-          incidunt vel ullam reiciendis praesentium maxime quae repellendus
-          doloribus, voluptates quos.
+          Vul de onderstaande gegevens in indien u in contact wilt komen met
+          ons.
         </p>
         <form
           className="py-4 md:grid grid-cols-2 gap-4"

@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function OudeIjssel() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras met uitzet
                   op het Montferlandse bos.
@@ -104,7 +109,7 @@ export default function OudeIjssel() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -119,7 +124,7 @@ export default function OudeIjssel() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Tweepersoonsbed</span>
+                <span>Twee eenpersoonsbedden</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <TbToolsKitchen3 className="text-2xl" />
@@ -208,6 +213,10 @@ export default function OudeIjssel() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,31 @@ export default function OudeIjssel() {
                 />
               </Carousel>
             </div>
+          </div>
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              Dit appartement ademt de sfeer van rivier de oude Ijssel. De Oude
+              IJssel is een zijrivier van de IJssel en heeft een rijke
+              geschiedenis. De rivier begint in Duitsland onde de naam Issel en
+              stroomt via de gemeenten Oude Ijsselstreek, Doetinchem en
+              Bronckhorst, waarna ze bij Doesburg in de Ijssel uitmondt.
+              <br />
+              <br />
+              Historisch gezien heeft de Oude IJssel een belangrijke rol
+              gespeeld in de regio. De rivier ontspringt in de Kreis Borken in
+              Duitsland en stroomt door een zacht glooiend landschap voordat ze
+              Nederland bereikt bij Gendringen. In Nederland stroomt de riveir
+              door verschillende gemeenten en mondt uiteindelijk uit in de
+              Ijssel bij Doesburg.
+              <br />
+              <br />
+              De Oude IJssel heeft ook bijgedragen aan de ontwikkeling van de
+              omliggende gebieden, zowel op economisch als cultureel vlak. De
+              rivier was een belangrijke waterweg voor handel en transport en
+              heeft bijgedragen aan de vestiging van nederzettingen langs haar
+              oevers.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">

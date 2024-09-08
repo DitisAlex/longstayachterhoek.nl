@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function Torenmolen() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras met uitzet
                   op het Montferlandse bos.
@@ -104,7 +109,7 @@ export default function Torenmolen() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -208,6 +213,10 @@ export default function Torenmolen() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,31 @@ export default function Torenmolen() {
                 />
               </Carousel>
             </div>
+          </div>
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              Uiteraard mag deze bezienswaardigheid van Zeddam niet ontbreken in
+              onze Longstay appartementen. De Grafelijke Korenmolen is een
+              torenmolen in Zeddam . Deze molen is de oudste nog bestaande
+              windmolen in Nederland.
+              <br />
+              <br />
+              Naar alle waarschijnlijkheid is de molen vóór 1441 gebouwd. De kap
+              is afkomstig van een boom die voor 1440 gekapt is. In 1546 werd in
+              de omgeving van de molen de nog steeds bestaande rosmolen gebouwd
+              zodat ook bij windstilte kon worden gemalen. Tot in de 20e eeuw
+              behoorde de molen toe aan de heren en graven van Kasteel Huis
+              Bergh. In 1839 werd de inrichting van de molen gemoderniseerd.
+              Nadat de molen in de 20e eeuw in particuliere handen kwam dreigde
+              sloop. In 1929 werd de molen echter ondergebracht in een
+              stichting. De molen werd in 1963, 1974, 1991 en 2005
+              gerestaureerd. Op 25 januari 2017 zijn de roeden verwijderd. Vier
+              weken later zijn de roeden met nieuw hekwerk weer gestoken. De
+              molen heeft twee koppel maalstenen. Het middeleeuwse bouwwerk
+              heeft zeer dikke muren en nog zeer oude vloerplanken, waarmee het
+              een van de bijzonderste molens in Nederland is.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">

@@ -8,10 +8,12 @@ export default function Business() {
           Zakelijk
         </p>
         <p className="py-2 text-[--color-text]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-          eius, ea similique qui dignissimos nemo quod cupiditate sunt quidem
-          incidunt vel ullam reiciendis praesentium maxime quae repellendus
-          doloribus, voluptates quos.
+          Onze longstay appartementen zijn goed uitgeruste accomodaties zodat
+          expats en zakenreizigers zich snel thuis kunnen voelen. Een verblijf
+          in een van onze longstay appartementen geeft u meer ruimte en meer
+          privacy dan een verblijf in een hotel. Een long stay zakelijk verblijf
+          zal snel worden ervaren als 'a home away from home', van alle gemakken
+          voorzien met natuurlijk ook een schoonmaakservice en wasgelegenheid.
         </p>
         <p className="text-[--color-text]">De prijzen zijn als volgt:</p>
         <div className="md:grid grid-cols-4  py-4">
@@ -21,7 +23,7 @@ export default function Business() {
             </h5>
             <div className="flex items-baseline text-gray-900">
               <span className="text-3xl font-semibold">€</span>
-              <span className="text-5xl font-extrabold tracking-tight">99</span>
+              <span className="text-5xl font-extrabold tracking-tight">79</span>
               <span className="ml-1 text-xl font-normal text-gray-500 ">
                 /nacht
               </span>
@@ -33,9 +35,7 @@ export default function Business() {
             </h5>
             <div className="flex items-baseline text-gray-900">
               <span className="text-3xl font-semibold">€</span>
-              <span className="text-5xl font-extrabold tracking-tight">
-                109
-              </span>
+              <span className="text-5xl font-extrabold tracking-tight">89</span>
               <span className="ml-1 text-xl font-normal text-gray-500 ">
                 /nacht
               </span>
@@ -47,9 +47,7 @@ export default function Business() {
             </h5>
             <div className="flex items-baseline text-gray-900">
               <span className="text-3xl font-semibold">€</span>
-              <span className="text-5xl font-extrabold tracking-tight">
-                119
-              </span>
+              <span className="text-5xl font-extrabold tracking-tight">99</span>
               <span className="ml-1 text-xl font-normal text-gray-500 ">
                 /nacht
               </span>
@@ -62,7 +60,7 @@ export default function Business() {
             <div className="flex items-baseline text-gray-900">
               <span className="text-3xl font-semibold">€</span>
               <span className="text-5xl font-extrabold tracking-tight">
-                129
+                109
               </span>
               <span className="ml-1 text-xl font-normal text-gray-500 ">
                 /nacht
@@ -71,8 +69,8 @@ export default function Business() {
           </Card>
         </div>
         <p className="text-sm italic text-[--color-text]">
-          Disclaimer: Alle prijzen zijn exclusief 6% btw en toeristenbelasting.
-          Facturatie vind iedere twee weken plaats.
+          Disclaimer: Alle prijzen zijn exclusief 9% btw en toeristenbelasting €
+          1,25 p.p.p.n. Facturatie vind iedere twee weken plaats.
         </p>
       </div>
     </div>

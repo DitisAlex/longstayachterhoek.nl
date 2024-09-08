@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function KasteelHuisBergh() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras met uitzet
                   op het Montferlandse bos.
@@ -104,7 +109,7 @@ export default function KasteelHuisBergh() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -119,7 +124,7 @@ export default function KasteelHuisBergh() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Tweepersoonsbed</span>
+                <span>Twee eenpersoonsbedden</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <TbToolsKitchen3 className="text-2xl" />
@@ -208,6 +213,10 @@ export default function KasteelHuisBergh() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,31 @@ export default function KasteelHuisBergh() {
                 />
               </Carousel>
             </div>
+          </div>
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              Dit appartement ademt de sfeer van een van de mooiste kastelen die
+              Nederland rijk is, Kasteel Huis Bergh. Huis Bergh is een kasteel
+              en museum in de stad 's-Heerenberg in de gemeente Montferland, in
+              de Nederlandse provincie Gelderland. Huis Bergh was het stamslot
+              van de graven van Bergh. Het Land van den Bergh was vóór 1486 een
+              bannerij en vanaf 1486 (rijks-)graafschap Bergh. Huis Bergh is de
+              grootste waterburcht in Nederland.
+              <br />
+              <br />
+              Huis Bergh is van de 12e eeuw tot en met de 20e eeuw bewoond
+              geweest. De verschillende heren en graven Van den Bergh hebben een
+              belangrijke rol gespeeld in de geschiedenis van het gebied en
+              sommigen hebben zelfs op landelijk niveau geschiedenis geschreven.
+              In de Tachtigjarige Oorlog werd een belangrijke stempel gedrukt op
+              de Berghse geschiedenis door Willem IV graaf Van den Bergh. Het
+              kasteel Huis Bergh kent een bewogen bouwgeschiedenis. Sinds de 12e
+              eeuw is het kasteel al vele malen van uiterlijk veranderd en
+              hebben er talloze addities plaatsgevonden. Ook is het al twee keer
+              afgebrand geweest, waarvan de laatste keer nog vrij recent: in
+              1939.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">

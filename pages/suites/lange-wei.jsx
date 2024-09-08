@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function LangeWei() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras in onze
                   binnen patio.
@@ -104,7 +109,7 @@ export default function LangeWei() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -119,7 +124,7 @@ export default function LangeWei() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Tweepersoonsbed</span>
+                <span>Twee eenpersoonsbedden</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <TbToolsKitchen3 className="text-2xl" />
@@ -208,6 +213,10 @@ export default function LangeWei() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,22 @@ export default function LangeWei() {
                 />
               </Carousel>
             </div>
+          </div>
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              De naam zegt het al. In deze kamer wordt je verwelkomd door een
+              nieuwsgierige koe.
+              <br />
+              <br />
+              De Lange Wei is een oude naam voor de weg vanaf Vinkwijk naar de
+              Langeboomstestraat in Vethuizen. Het is een gebied met landerijen
+              en boerderijen en waar de koeien nog heerlijk buiten staan te
+              grazen. Maar ook een gebied waar het prachtig fietsen is, vooral
+              in de vroege ochtenden wanneer de dauw nog op de weilanden
+              aanwezig is en waar je kunt genieten van de vele vogelsoorten die
+              het rijk is. Een prachtig gebied aan de rand van Zeddam.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">

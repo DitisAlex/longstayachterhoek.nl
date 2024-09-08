@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function Padevoort() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras in onze
                   binnen patio.
@@ -104,7 +109,7 @@ export default function Padevoort() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -119,7 +124,7 @@ export default function Padevoort() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Tweepersoonsbed</span>
+                <span>Twee eenpersoonsbedden</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <TbToolsKitchen3 className="text-2xl" />
@@ -208,6 +213,10 @@ export default function Padevoort() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,37 @@ export default function Padevoort() {
                 />
               </Carousel>
             </div>
+          </div>
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              Ons Padevoort appartement ademt de sfeer van een prachtig 'klein'
+              kasteel dat Zeddam rijk is. De Padevoort is een kleine voormalige
+              Berghse havezate en voormalig adellijk huis in de buurtschap
+              Vinkwijk in het dorp Zeddam. Het huidige huis ligt ten oosten van
+              het dorp en stamt uit de zeventiende eeuw. De naam Padevoort
+              betekent 'doorwaadbare plaats'.
+              <br />
+              <br />
+              Padevoort wordt rond 1272 genoemd onder de naam Pedelvuort als
+              gebiedsbezit van het klooster Bethlehem. In 1280 is het als
+              akkerland in bezit van Henrick van Hesehusen die Pedelvoort in
+              1281 overdraagt aan Heer Jacob, pastoor van Zeddam. Aangenomen
+              wordt dat het huis op deze akkers is gebouwd en dat het daar zijn
+              naam aan ontleent. In 1375 is er sprake van een geslacht Van den
+              Padevoort dat gerekend wordt tot de riddermatigen van 'het land
+              van den Bergh' met de havezate Padevoort als stamhuis. In 1666
+              kwam het door een naasting in het bezit van de Heren van den Bergh
+              en werd het als jachthuis ingericht. In 1875 werd het gebouw
+              verkocht aan de Franciscanessen van Heythuysen en vervolgens als
+              Sint-Jozefklooster ingericht. De zusters vestigden er tevens een
+              meisjesschool en een gebouw voor wijkverpleging (tot 1949
+              "Vereeniging van Vrouwen").[1] In 1968 werd de Padevoort
+              aangekocht door H.J. Kremer, een aannemer uit Laag-Keppel, die De
+              Padevoort restaureerde en in 1978 doorverkocht aan een particulier
+              die het in 1994 verkocht aan de huidige eigenaar (anno 2015). Het
+              wordt particulier bewoond en is niet toegankelijk voor publiek.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">

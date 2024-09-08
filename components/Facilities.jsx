@@ -95,6 +95,53 @@ export default function Facilities() {
               </span>
             </p>
           </div>
+          <div className="col-span-1 py-2">
+            <h3 className="font-semibold text-lg tracking-wider">
+              Vers ontbijt
+            </h3>
+            <p className="py-1">
+              Liever in de ochtend gelijk een kant en klaar broodje voor uw
+              neus? Laat een vers ontbijt naar uw suite gebracht worden verzorgd
+              door{" "}
+              <Link href="https://www.broodsbroodjesbar.nl/" target="_blank">
+                <span className="underline text-[--navbar-primary]">
+                  BROODS
+                </span>
+              </Link>
+              .
+            </p>
+          </div>
+          <div className="col-span-1 py-2">
+            <h3 className="font-semibold text-lg tracking-wider">
+              Beauty & Wellness
+            </h3>
+            <p className="py-1">
+              Wilt u eventjes lekker onstappen in een sauna? Dan kunt u naar
+              Braamt toe voor het{" "}
+              <Link href="https://www.palestra.nl/" target="_blank">
+                <span className="underline text-[--navbar-primary]">
+                  Beauty & Wellness centre Palestra
+                </span>
+              </Link>
+              .
+            </p>
+          </div>
+          <div className="col-span-1 py-2">
+            <h3 className="font-semibold text-lg tracking-wider">
+              Sporten met personal trainer
+            </h3>
+            <p className="py-1">
+              Heeft u zin om te sporten met of zonder personal trainer? Dat kan
+              bij{" "}
+              <Link href="https://clcsports.nl/" target="_blank">
+                <span className="underline text-[--navbar-primary]">
+                  CLG Sports
+                </span>{" "}
+                in 's-Heerenberg
+              </Link>
+              .
+            </p>
+          </div>
         </div>
       </div>
     </div>

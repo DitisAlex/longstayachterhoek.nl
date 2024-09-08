@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function MTBRoute() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras met uitzet
                   op het Montferlandse bos.
@@ -104,7 +109,7 @@ export default function MTBRoute() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -119,7 +124,7 @@ export default function MTBRoute() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Tweepersoonsbed</span>
+                <span>Twee eenpersoonsbedden</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <TbToolsKitchen3 className="text-2xl" />
@@ -208,6 +213,10 @@ export default function MTBRoute() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,47 @@ export default function MTBRoute() {
                 />
               </Carousel>
             </div>
+          </div>
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              Een suite geschikt voor de fervent fietser. Deze kamer is een ode
+              aan een van de mooiste mountainbike routes van Nederland.
+              <br />
+              <br />
+              Ga erop uit en beleef het prachtige Montferland met de
+              mountainbike. Deze 26 kilometer lange mountainbikeroute gaat van
+              start in Braamt. Tijdens de route rijdt u door het Bergherbos wat
+              maar liefst 2000 hectare groot is. De MTB-route heeft veel
+              hoogteverschil, waardoor deze route een mooie en sportieve
+              uitdaging is.
+              <br />
+              <br />
+              Je kunt de route starten bij: <br />– ’t Peeske, Peeskesweg 12,
+              7037 CH in Beek <br />– Parkeerterrein Brinks Pannenkoeken,
+              Bovendorpsstraat 7, 7038 CH Zeddam <br />– Parkeerterrein
+              Hettenheuvel, Zeddamseweg 5, 7035 DC in Kilder <br />–
+              Parkeerterrein het Tolhuis, `s Heerenbergseweg 42, 7038 CD in
+              Zeddam <br />– Parkeerplaats Markant Outdoor, Gildeweg 7, 7047 AR
+              in Braamt (parkeren alleen mogelijk voor combigroepen die ook één
+              of meerdere mountainbikes huren).
+              <br />
+              <br />
+              Tijdens de route komt u langs meerdere verschillende hotspots in
+              Montferland. Aan het begin van de route bij de Hettenheuvel is er
+              een fantastisch uitzicht op zowel Doetinchem als Kilder. De tweede
+              hotspot is de Motte. De Motte is een heuvel in Zeddam die door
+              mensen is opgehoogd. Vroeger stond op deze plek een burcht genaamd
+              ‘Montferrand’ dat later het Montferland is gaan heten. In Zeddam
+              vind je ook de de oudste nog bestaande windmolem van Nederland, de
+              Grafelijke Korenmolen. Verder op de route is er in Stokkum de
+              uitkijktoren Hulzenberg. Vanaf deze 20 meter hoge uitkijktoren
+              kunt u genieten van het uitzicht tot ver in de Achterhoek.
+              <br />
+              <br />
+              Om deze MTBroute te mogen rijden heb je een MTB-vignet nodig. Koop
+              je MTB-vignet online.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">

@@ -18,8 +18,8 @@ export default function Landing() {
             Welkom bij Longstay Achterhoek
           </h1>
           <p className="text-sm md:text-xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-            ducimus nam non tenetur fuga!
+            'A home away from home', zakelijk, recreatief of als tijdelijk
+            verblijf anderszins.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

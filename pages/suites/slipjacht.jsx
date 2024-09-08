@@ -24,7 +24,12 @@ import {
   TbAirConditioning,
   TbHanger,
 } from "react-icons/tb";
-import { MdPets, MdForest, MdTableRestaurant } from "react-icons/md";
+import {
+  MdPets,
+  MdForest,
+  MdTableRestaurant,
+  MdCleaningServices,
+} from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
@@ -66,11 +71,11 @@ export default function Sliptacht() {
         <div className="col-span-4">
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
-            <p className="text-[--color-text]">
+            <div className="text-[--color-text]">
               Kenmerken van dit appartement:
               <ul>
                 <li>
-                  • <span className="font-semibold">Ruime woonruimte:</span>
+                  • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras met uitzet
                   op het Montferlandse bos.
@@ -104,7 +109,7 @@ export default function Sliptacht() {
                   ontbijt vanaf 07:00 bij BROODS).
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Kenmerken</h2>
@@ -119,7 +124,7 @@ export default function Sliptacht() {
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <FaBed className="text-2xl" />
-                <span>Tweepersoonsbed</span>
+                <span>Twee eenpersoonsbedden</span>
               </li>
               <li className="flex items-center space-x-2 py-1">
                 <TbToolsKitchen3 className="text-2xl" />
@@ -208,6 +213,10 @@ export default function Sliptacht() {
                 <FaBed className="text-2xl" />
                 <span>Beddengoed wordt wekelijks vervangen</span>
               </li>
+              <li className="flex items-center space-x-2 py-1">
+                <MdCleaningServices className="text-2xl" />
+                <span>Een wekelijkse schoonmaak</span>
+              </li>
             </ul>
           </div>
           <div className="py-4">
@@ -258,6 +267,38 @@ export default function Sliptacht() {
                 />
               </Carousel>
             </div>
+          </div>
+
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Inspiratie</h2>
+            <p className="py-2 text-[--color-text]">
+              Deze kamer ademt de sfeer van de slipjacht die regelmatig wordt
+              gereden door een van de mooiste gebieden van Nederland namelijk
+              het Montferland. Jagen achter de meute, ook wel jacht of slipjacht
+              genoemd, is een hippische activiteit die een lange historie kent.
+              Er wordt niet op een echte vos gejaagd maar op een getrokken
+              spoor. De slip wordt door een loper of een ruiter te paard met in
+              vossenurine gedrenkte lappen getrokken. Bij het jagen gaat het
+              erom dat ruiter en paard een meute honden zo goed en comfortabel
+              mogelijk kunnen volgen over terreinen waar de ‘vos’ zich schuil
+              houdt. Het is geen wedstrijd, maar een samenspel van paard en
+              ruiter en een prachtig schouwspel van de honden.
+              <br />
+              <br />
+              Sinds 2019 is de slipjacht bijgeschreven in de Inventaris
+              Immaterieel Erfgoed. Dit is de schakel tussen heden, verleden en
+              toekomst. Het is cultuur van nu, geeft een gevoel van
+              verbondenheid met vorige generaties en is tegelijkertijd ook
+              toekomstgericht omdat mensen het willen doorgeven aan volgende
+              generaties. Voor iedere slipjacht is uiteraard toestemming en
+              medewerking van de landeigenaren en landgebruikers nodig. In nauw
+              overleg met hen wordt de route vastgesteld, rekening houdend met
+              de lokale omstandigheden en bijzonderheden. Doordat de jachthonden
+              een uitgezet geurspoor volgen kan nauwkeurig worden ingespeeld op
+              de wensen en vereisten. Zodoende is de impact op terrein, flora en
+              fauna minimaal. Afhankelijk van de lokale voorschriften wordt een
+              gemeentelijke vergunning aangevraagd.
+            </p>
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">
