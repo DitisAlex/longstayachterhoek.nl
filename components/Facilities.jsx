@@ -101,8 +101,7 @@ export default function Facilities() {
             </h3>
             <p className="py-1">
               Liever in de ochtend gelijk een kant en klaar broodje voor uw
-              neus? Laat een vers ontbijt naar uw suite gebracht worden verzorgd
-              door{" "}
+              neus? Op loopafstand kunt u een vers ontbijt halen bij{" "}
               <Link href="https://www.broodsbroodjesbar.nl/" target="_blank">
                 <span className="underline text-[--navbar-primary]">
                   BROODS
