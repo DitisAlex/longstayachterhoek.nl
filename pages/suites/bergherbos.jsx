@@ -6,6 +6,8 @@ import Link from "next/link";
 import { useEffect } from "react";
 import logo from "../../public/logo.jpg";
 
+import impressie from "../../public/impressie/bergherbos/impressie_test.jpeg";
+
 import {
   FaWifi,
   FaShower,
@@ -245,10 +247,7 @@ export default function Bergherbos() {
             <h2 className="text-2xl font-semibold">Impressie</h2>
             <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
               <Carousel slideInterval={5000}>
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-                  alt="..."
-                />
+                <Image src={impressie} alt="..." className="" />
                 <img
                   src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
                   alt="..."
