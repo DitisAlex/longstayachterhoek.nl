@@ -17,9 +17,10 @@ export default function Landing() {
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
             Welkom bij Longstay Achterhoek
           </h1>
-          <p className="text-sm md:text-xl">
-            &#39;A home away from home&#39;, zakelijk, recreatief of als
-            tijdelijk verblijf anderszins.
+          <p className="text-md md:text-3xl">
+            &#39;A home away from home&#39;,
+            <br />
+            zakelijk, recreatief of als tijdelijk verblijf anderszins.
           </p>
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link

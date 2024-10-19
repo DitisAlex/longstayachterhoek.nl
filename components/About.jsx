@@ -10,11 +10,17 @@ export default function About() {
             Over Ons
           </p>
           <p className="py-2 text-[--color-text]">
-            Longstay Achterhoek wordt gerund door een gepassioneerde familie die
-            als motto heeft: &#39;stilstand is achteruitgang&#39; en die tevens
-            erg trots is op dit prachtige stukje Achterhoek aan de voet van de
-            Montferlandse bossen. Onze longstay appartementen zijn naast
-            recreatief gebruik uiterst geschikt voor de zakelijke markt.
+            Longstay Achterhoek is gevestigd in het achterste deel van het pand
+            gelegen aan de Terborgseweg 2 te Zeddam waar voorheen een succesvol
+            buffetrestaurant werd gerund met 300 zitplaatsen. Na een rigoreuze
+            verbouwing is het nu veranderd in een prachtig aparthotel met negen
+            volledig ingerichte suites. Aan de voorzijde kan er nog steeds
+            heerlijk worden gegeten in het a la Carte restaurant, ook gerund
+            door de familie die als motto heeft: &#39;stilstand is
+            achteruitgang&#39; en die tevens erg trots is op dit prachtige
+            stukje Achterhoek aan de voet van de Montferlandse bossen. Onze
+            longstay appartementen zijn naast recreatief gebruik uiterst
+            geschikt voor de zakelijke markt.
             <br />
             <br />
             Onze appartementen zijn nieuw gebouwd en voorzien van alle comfort
