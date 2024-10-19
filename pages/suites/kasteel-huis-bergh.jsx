@@ -295,7 +295,7 @@ export default function KasteelHuisBergh() {
               Controleer dan de beschikbaarheid.
             </p>
             <Flowbite theme={{ theme: customTheme }}>
-              <Link href="https://www.booking.com/">
+              <Link href="/#contact">
                 <Button
                   color="success"
                   className="font-semibold tracking-wider"
@@ -306,7 +306,7 @@ export default function KasteelHuisBergh() {
               <p className="text-[--color-text] py-2 pt-6">
                 Wilt u echter zakelijk verblijven? Klik dan hier.
               </p>
-              <Link href="http://localhost:3000/#zakelijk">
+              <Link href="/#zakelijk">
                 <Button
                   color="success"
                   className="font-semibold tracking-wider"
