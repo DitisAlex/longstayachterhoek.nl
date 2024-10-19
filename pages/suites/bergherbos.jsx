@@ -6,8 +6,6 @@ import Link from "next/link";
 import { useEffect } from "react";
 import logo from "../../public/logo.jpg";
 
-import impressie from "../../public/impressie/bergherbos/impressie_test.jpeg";
-
 import {
   FaWifi,
   FaShower,
@@ -36,6 +34,12 @@ import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
 import { BsSafeFill } from "react-icons/bs";
+
+import img1 from "../../public/impressie/bergherbos/image00001.jpeg";
+import img2 from "../../public/impressie/bergherbos/image00002.jpeg";
+import img3 from "../../public/impressie/bergherbos/image00003.jpeg";
+import img4 from "../../public/impressie/bergherbos/image00004.jpeg";
+import img5 from "../../public/impressie/bergherbos/image00005.jpeg";
 
 export default function Bergherbos() {
   useEffect(() => {
@@ -247,23 +251,11 @@ export default function Bergherbos() {
             <h2 className="text-2xl font-semibold">Impressie</h2>
             <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
               <Carousel slideInterval={5000}>
-                <Image src={impressie} alt="..." className="" />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-                  alt="..."
-                />
+                <Image src={img1} alt="..." className="" />
+                <Image src={img2} alt="..." className="" />
+                <Image src={img3} alt="..." className="" />
+                <Image src={img4} alt="..." className="" />
+                <Image src={img5} alt="..." className="" />
               </Carousel>
             </div>
           </div>

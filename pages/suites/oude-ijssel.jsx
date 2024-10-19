@@ -35,6 +35,12 @@ import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
 import { BsSafeFill } from "react-icons/bs";
 
+import img1 from "../../public/impressie/oude_ijssel/image00001.jpeg";
+import img2 from "../../public/impressie/oude_ijssel/image00002.jpeg";
+import img3 from "../../public/impressie/oude_ijssel/image00003.jpeg";
+import img4 from "../../public/impressie/oude_ijssel/image00004.jpeg";
+import img5 from "../../public/impressie/oude_ijssel/image00005.jpeg";
+
 export default function OudeIjssel() {
   useEffect(() => {
     window.scroll(0, 0);
@@ -245,26 +251,11 @@ export default function OudeIjssel() {
             <h2 className="text-2xl font-semibold">Impressie</h2>
             <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
               <Carousel slideInterval={5000}>
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-                  alt="..."
-                />
-                <img
-                  src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-                  alt="..."
-                />
+                <Image src={img1} alt="..." className="" />
+                <Image src={img2} alt="..." className="" />
+                <Image src={img3} alt="..." className="" />
+                <Image src={img4} alt="..." className="" />
+                <Image src={img5} alt="..." className="" />
               </Carousel>
             </div>
           </div>
