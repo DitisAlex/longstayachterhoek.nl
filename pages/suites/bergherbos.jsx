@@ -4,7 +4,7 @@ import NavbarComponent from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
-import logo from "../../public/logo.jpg";
+import logo from "../../public/hd/bergherbos4k.jpg";
 
 import {
   FaWifi,
@@ -29,6 +29,7 @@ import {
   MdForest,
   MdTableRestaurant,
   MdCleaningServices,
+  MdKingBed,
 } from "react-icons/md";
 import { IoRestaurant } from "react-icons/io5";
 import { IoMdResize } from "react-icons/io";
@@ -75,6 +76,13 @@ export default function Bergherbos() {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-8">
         <div className="col-span-4">
+          <div className="py-4">
+            <h2 className="text-2xl font-semibold">Prijzen</h2>
+            <div className="text-[--color-text]">
+              De prijs voor dit appartement betreft € 199,- per nacht (excl.
+              toeristenbelasting) en is te boeken vanaf 2 nachten.
+            </div>
+          </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
             <div className="text-[--color-text]">
@@ -140,7 +148,7 @@ export default function Bergherbos() {
           </div>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Kamer Voorzieningen</h2>
-            <div className="grid grid-cols-2 gap-4 mx-2">
+            <div className="block md:grid grid-cols-2 gap-4 mx-2">
               <ul>
                 <li className="flex items-center space-x-2 py-1">
                   <FaWifi className="text-2xl" />
@@ -169,6 +177,10 @@ export default function Bergherbos() {
                 <li className="flex items-center space-x-2 py-1">
                   <FaShower className="text-2xl" />
                   <span>Badkamer met inloopdouche</span>
+                </li>
+                <li className="flex items-center space-x-2 py-1">
+                  <MdKingBed className="text-2xl" />
+                  <span>Slaapbank</span>
                 </li>
               </ul>
               <ul>
@@ -293,13 +305,13 @@ export default function Bergherbos() {
           </div>
         </div>
         <div className="col-span-4 md:col-span-2">
-          <div className="py-4 shadow-md p-4 border border-gray-300 rounded-xl">
+          <div className="py-4 shadow-md p-4 border border-gray-300 rounded-xl mb-4">
             <h2 className="text-2xl font-semibold pt-2 flex justify-center">
-              Boek Direct
+              Check Beschikbaarheid
             </h2>
             <p className="text-[--color-text] py-2">
-              Heeft u interesse om particulier te verblijven in Huis Bergh?
-              Controleer dan de beschikbaarheid.
+              Heeft u interesse om particulier hier te verblijven? Neem dan
+              contact met ons.
             </p>
             <Flowbite theme={{ theme: customTheme }}>
               <Link href="/#contact">
@@ -307,7 +319,7 @@ export default function Bergherbos() {
                   color="success"
                   className="font-semibold tracking-wider"
                 >
-                  Check Beschikbaarheid
+                  Contactformulier
                 </Button>
               </Link>
               <p className="text-[--color-text] py-2 pt-6">
