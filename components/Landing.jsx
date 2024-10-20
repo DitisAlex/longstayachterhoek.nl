@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../public/logo.jpg";
+import background from "../public/hd/bergherbos4k.jpg";
 import Link from "next/link";
 
 export default function Landing() {
@@ -7,11 +7,11 @@ export default function Landing() {
     <div className="h-screen flex flex-col justify-center items-center md:flex-row shadow-lg">
       <div className="flex h-full w-full items-center justify-center bg-gray-950">
         <Image
-          src={logo}
+          src={background}
           alt="Logo"
-          width={1000}
-          height={1000}
-          className="absolute inset-0 h-full w-full object-cover opacity-50"
+          width={1920}
+          height={1080}
+          className="absolute inset-0 h-full w-full object-cover opacity-60"
         />
         <div className="relative z-10 max-w-3xl space-y-6 px-4 text-center text-gray-50 md:px-6">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
