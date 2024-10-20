@@ -166,11 +166,11 @@ export default function NavbarComponent() {
                     <FaFacebookF />
                   </div>
                 </Link>
-                <Link href="https://www.booking.com">
+                {/* <Link href="https://www.booking.com">
                   <div className="rounded-full bg-[--navbar-primary] text-white shadow-md shadow-gray-400 p-4">
                     <TbBrandBooking />
                   </div>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

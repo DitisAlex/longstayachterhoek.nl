@@ -49,11 +49,11 @@ export default function FooterComponent() {
                 className="text-white"
                 icon={FaFacebookF}
               />
-              <Footer.Icon
+              {/* <Footer.Icon
                 href="https://www.booking.com"
                 className="text-white"
                 icon={TbBrandBooking}
-              />
+              /> */}
             </div>
           </div>
         </div>
