@@ -35,11 +35,11 @@ import { IoMdResize } from "react-icons/io";
 import { FaHouse } from "react-icons/fa6";
 import { BsSafeFill } from "react-icons/bs";
 
-import img1 from "../../public/impressie/bergherbos/image00001.jpeg";
-import img2 from "../../public/impressie/bergherbos/image00002.jpeg";
-import img3 from "../../public/impressie/bergherbos/image00003.jpeg";
-import img4 from "../../public/impressie/bergherbos/image00004.jpeg";
-import img5 from "../../public/impressie/bergherbos/image00005.jpeg";
+import img1 from "../../public/impressie/padevoort/image00001.jpeg";
+import img2 from "../../public/impressie/padevoort/image00002.jpeg";
+import img3 from "../../public/impressie/padevoort/image00003.jpeg";
+import img4 from "../../public/impressie/padevoort/image00004.jpeg";
+import img5 from "../../public/impressie/padevoort/image00005.jpeg";
 
 export default function Padevoort() {
   useEffect(() => {
