@@ -1,5 +1,7 @@
 import Image from "next/image";
-import logo from "../public/logo.jpg";
+import Link from "next/link";
+
+import logo from "../public/hd/eigenaren.jpg";
 
 export default function About() {
   return (
@@ -15,8 +17,13 @@ export default function About() {
             buffetrestaurant werd gerund met 300 zitplaatsen. Na een rigoreuze
             verbouwing is het nu veranderd in een prachtig aparthotel met negen
             volledig ingerichte suites. Aan de voorzijde kan er nog steeds
-            heerlijk worden gegeten in het a la Carte restaurant, ook gerund
-            door de familie die als motto heeft: &#39;stilstand is
+            heerlijk worden gegeten in{" "}
+            <Link href="https://sinchen.nl/" target="_blank">
+              <span className="underline text-[--navbar-primary]">
+                het a la Carte restaurant, Sin Chen,
+              </span>
+            </Link>{" "}
+            ook gerund door de familie die als motto heeft: &#39;stilstand is
             achteruitgang&#39; en die tevens erg trots is op dit prachtige
             stukje Achterhoek aan de voet van de Montferlandse bossen. Onze
             longstay appartementen zijn naast recreatief gebruik uiterst
