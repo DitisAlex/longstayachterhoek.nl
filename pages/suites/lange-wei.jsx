@@ -60,7 +60,7 @@ export default function LangeWei() {
     <div>
       <NavbarComponent />
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/70 z-10"></div>
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/30 z-10"></div>
         <Image
           className="absolute z-1"
           fill
@@ -79,8 +79,8 @@ export default function LangeWei() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Prijzen</h2>
             <div className="text-[--color-text]">
-              De prijs voor dit appartement betreft € 199,- per nacht (excl.
-              toeristenbelasting) en is te boeken vanaf 2 nachten.
+              € 199,00 per nacht(exclusief toeristenbelasting) boeking min. 2
+              nachten.
             </div>
           </div>
           <div className="py-4">
