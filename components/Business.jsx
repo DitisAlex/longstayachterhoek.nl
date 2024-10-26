@@ -19,9 +19,9 @@ export default function Business() {
         <p className="text-[--color-text]">De prijzen zijn als volgt:</p>
         <div className="md:grid grid-cols-4  py-4">
           <Card className="col-span-1 py-2 m-2 md:mx-0 md:rounded-r-none">
-            <h5 className="mb-4 text-xl font-medium text-gray-500 ">
+            <h1 className="mb-4 text-xl font-medium text-gray-500 ">
               Vanaf 2 maanden
-            </h5>
+            </h1>
             <div className="flex items-baseline text-gray-900">
               <span className="text-3xl font-semibold">€</span>
               <span className="text-5xl font-extrabold tracking-tight">79</span>
@@ -31,9 +31,9 @@ export default function Business() {
             </div>
           </Card>
           <Card className="col-span-1 py-2 border-8 border-[--navbar-primary]">
-            <h5 className="mb-4 text-xl font-medium text-gray-500 ">
+            <h1 className="mb-4 text-xl font-medium text-gray-500 ">
               1 tot 2 maanden
-            </h5>
+            </h1>
             <div className="flex items-baseline text-gray-900">
               <span className="text-3xl font-semibold">€</span>
               <span className="text-5xl font-extrabold tracking-tight">89</span>
@@ -43,9 +43,9 @@ export default function Business() {
             </div>
           </Card>
           <Card className="col-span-1 py-2 m-2 md:mx-0 md:rounded-none">
-            <h5 className="mb-4 text-xl font-medium text-gray-500 ">
+            <h1 className="mb-4 text-xl font-medium text-gray-500 ">
               14 dagen tot 1 maand
-            </h5>
+            </h1>
             <div className="flex items-baseline text-gray-900">
               <span className="text-3xl font-semibold">€</span>
               <span className="text-5xl font-extrabold tracking-tight">99</span>
@@ -55,9 +55,9 @@ export default function Business() {
             </div>
           </Card>
           <Card className="col-span-1 py-2 m-2 md:mx-0 md:rounded-l-none">
-            <h5 className="mb-4 text-xl font-medium text-gray-500 ">
+            <h1 className="mb-4 text-xl font-medium text-gray-500 ">
               7 dagen tot 14 dagen
-            </h5>
+            </h1>
             <div className="flex items-baseline text-gray-900">
               <span className="text-3xl font-semibold">€</span>
               <span className="text-5xl font-extrabold tracking-tight">

@@ -77,9 +77,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   Uitkijktoren Hulzenberg
-                </h5>
+                </h1>
                 <Link href="/suites/uitkijktoren-hulzenberg">
                   <Button
                     color="success"
@@ -101,9 +101,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   Slipjacht
-                </h5>
+                </h1>
                 <Link href="/suites/slipjacht">
                   <Button
                     color="success"
@@ -125,9 +125,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   Kasteel Huis Bergh
-                </h5>
+                </h1>
                 <Link href="/suites/kasteel-huis-bergh">
                   <Button
                     color="success"
@@ -149,9 +149,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   Bergherbos
-                </h5>
+                </h1>
                 <Link href="/suites/bergherbos">
                   <Button
                     color="success"
@@ -173,9 +173,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   Oude Ijssel
-                </h5>
+                </h1>
                 <Link href="/suites/oude-ijssel">
                   <Button
                     color="success"
@@ -197,9 +197,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   MTB-Route
-                </h5>
+                </h1>
                 <Link href="/suites/mtb-route">
                   <Button
                     color="success"
@@ -221,9 +221,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   De Lange Wei
-                </h5>
+                </h1>
                 <Link href="/suites/lange-wei">
                   <Button
                     color="success"
@@ -245,9 +245,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   De Padevoort
-                </h5>
+                </h1>
                 <Link href="/suites/padevoort">
                   <Button
                     color="success"
@@ -269,9 +269,9 @@ export default function Suites() {
                   />
                 )}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-[--color-text]">
+                <h1 className="text-2xl font-bold tracking-tight text-[--color-text]">
                   De Torenmolen
-                </h5>
+                </h1>
                 <Link href="/suites/torenmolen">
                   <Button
                     color="success"

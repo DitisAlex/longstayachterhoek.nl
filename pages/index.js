@@ -12,7 +12,7 @@ import { ThemeModeScript } from "flowbite-react";
 
 export default function Index() {
   return (
-    <div>
+    <div lang="en">
       <Head>
         <title>Longstay Achterhoek</title>
         <meta name="description" content="A home away from home" />

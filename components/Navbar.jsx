@@ -49,31 +49,21 @@ export default function NavbarComponent() {
           />
         </Link>
         <ul className="hidden lg:flex">
-          <Link href="/#about">
-            <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
-              Over Ons
-            </li>
-          </Link>
-          <Link href="/#suites">
-            <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
-              Suites
-            </li>
-          </Link>
-          <Link href="/#faciliteiten">
-            <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
-              Faciliteiten
-            </li>
-          </Link>
-          <Link href="/#zakelijk">
-            <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
-              Zakelijk
-            </li>
-          </Link>
-          <Link href="/#contact">
-            <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
-              Contact
-            </li>
-          </Link>
+          <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+            <Link href="/#about">Over Ons</Link>
+          </li>
+          <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+            <Link href="/#suites">Suites</Link>
+          </li>
+          <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+            <Link href="/#faciliteiten">Faciliteiten</Link>
+          </li>
+          <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+            <Link href="/#zakelijk">Zakelijk</Link>
+          </li>
+          <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+            <Link href="/#contact">Contact</Link>
+          </li>
         </ul>
         <div onClick={handleToggleNav} className="lg:hidden p-3 cursor-pointer">
           <AiOutlineMenu size={20} />
@@ -102,54 +92,36 @@ export default function NavbarComponent() {
           </div>
           <div className="py-4 flex flex-col">
             <ul>
-              <Link href="#">
-                <li
-                  onClick={() => setToggleNav(false)}
-                  className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out"
-                >
+              <li className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+                <Link href="#" onClick={() => setToggleNav(false)}>
                   Home
-                </li>
-              </Link>
-              <Link href="/#about">
-                <li
-                  onClick={() => setToggleNav(false)}
-                  className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out"
-                >
+                </Link>
+              </li>
+              <li className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+                <Link href="/#about" onClick={() => setToggleNav(false)}>
                   Over Ons
-                </li>
-              </Link>
-              <Link href="/#suites">
-                <li
-                  onClick={() => setToggleNav(false)}
-                  className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out"
-                >
+                </Link>
+              </li>
+              <li className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+                <Link href="/#suites" onClick={() => setToggleNav(false)}>
                   Suites
-                </li>
-              </Link>
-              <Link href="/#faciliteiten">
-                <li
-                  onClick={() => setToggleNav(false)}
-                  className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out"
-                >
+                </Link>
+              </li>
+              <li className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+                <Link href="/#faciliteiten" onClick={() => setToggleNav(false)}>
                   Faciliteiten
-                </li>
-              </Link>
-              <Link href="/#zakelijk">
-                <li
-                  onClick={() => setToggleNav(false)}
-                  className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out"
-                >
+                </Link>
+              </li>
+              <li className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+                <Link href="/#zakelijk" onClick={() => setToggleNav(false)}>
                   Zakelijk
-                </li>
-              </Link>
-              <Link href="/#contact">
-                <li
-                  onClick={() => setToggleNav(false)}
-                  className="py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out"
-                >
+                </Link>
+              </li>
+              <li className="py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+                <Link href="/#contact" onClick={() => setToggleNav(false)}>
                   Contact
-                </li>
-              </Link>
+                </Link>
+              </li>
             </ul>
             <div className="pt-48">
               <p className="uppercase tracking-widest font-semibold text-l">
@@ -158,12 +130,12 @@ export default function NavbarComponent() {
               <div className="flex items-center justify-around my-4 w-full sm:w-[80%]">
                 <Link href="https://instagram.com/longstayachterhoek">
                   <div className="rounded-full bg-[--navbar-primary] text-white shadow-md shadow-gray-400 p-4">
-                    <FaInstagram />
+                    <FaInstagram aria-label="Click here to see our instagram" />
                   </div>
                 </Link>
                 <Link href="https://www.facebook.com/profile.php?id=61557442225259">
                   <div className="rounded-full bg-[--navbar-primary] text-white shadow-md shadow-gray-400 p-4">
-                    <FaFacebookF />
+                    <FaFacebookF aria-label="Click here to see our facebook" />
                   </div>
                 </Link>
                 {/* <Link href="https://www.booking.com">

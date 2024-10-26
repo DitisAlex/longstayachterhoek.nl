@@ -43,11 +43,13 @@ export default function FooterComponent() {
                 href="https://instagram.com/longstayachterhoek"
                 className="text-white"
                 icon={FaInstagram}
+                aria-label="Click here to see our instagram"
               />
               <Footer.Icon
                 href="https://www.facebook.com/profile.php?id=61557442225259"
                 className="text-white"
                 icon={FaFacebookF}
+                aria-label="Click here to see our facebook"
               />
               {/* <Footer.Icon
                 href="https://www.booking.com"

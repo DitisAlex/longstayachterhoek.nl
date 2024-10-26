@@ -16,9 +16,9 @@ export default function Facilities() {
         </p>
         <div className="md:grid grid-cols-3 gap-10 py-4">
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">
+            <h1 className="font-semibold text-lg tracking-wider">
               Bestel takeaway
-            </h3>
+            </h1>
             <p className="py-1">
               Heeft u een drukke dag gehad en wilt u volledig uitrusten op uw
               kamer? Of bent u samen met uw partner een romantisch nachtje weg?
@@ -33,7 +33,7 @@ export default function Facilities() {
             </p>
           </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">Auto huren</h3>
+            <h1 className="font-semibold text-lg tracking-wider">Auto huren</h1>
             <p className="py-1">
               Bent u met het openbaar vervoer gekomen of beschikt u niet over
               een auto? Vraag ons dan voor uw aankomst in ons hotel naar de
@@ -41,9 +41,9 @@ export default function Facilities() {
             </p>
           </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">
+            <h1 className="font-semibold text-lg tracking-wider">
               Fiets huren
-            </h3>
+            </h1>
             <p className="py-1">
               Wilt u de omgeving per fiets verkennen? Dan kunt u in het
               aangrenzende dorp ‘s-Heerenberg bij{" "}
@@ -60,9 +60,9 @@ export default function Facilities() {
             </p>
           </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">
+            <h1 className="font-semibold text-lg tracking-wider">
               Mountainbike huren
-            </h3>
+            </h1>
             <p className="py-1">
               Wilt u net als vele anderen onze fantastische MTB route verkennen?
               Dan kunt u ook bij{" "}
@@ -79,9 +79,9 @@ export default function Facilities() {
             </p>
           </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">
+            <h1 className="font-semibold text-lg tracking-wider">
               Verblijf met uw huisdier
-            </h3>
+            </h1>
             <p className="py-1">
               Wilt u graag met uw trouwe viervoeter verblijven in ons
               apart-hotel? In de meeste appartementen is een huisdier (tegen
@@ -96,9 +96,9 @@ export default function Facilities() {
             </p>
           </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">
+            <h1 className="font-semibold text-lg tracking-wider">
               Vers ontbijt
-            </h3>
+            </h1>
             <p className="py-1">
               Liever in de ochtend gelijk een kant en klaar broodje voor uw
               neus? Op loopafstand kunt u een vers ontbijt halen bij{" "}
@@ -111,9 +111,9 @@ export default function Facilities() {
             </p>
           </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">
+            <h1 className="font-semibold text-lg tracking-wider">
               Beauty & Wellness
-            </h3>
+            </h1>
             <p className="py-1">
               Wilt u eventjes lekker onstappen in een sauna? Dan kunt u naar
               Braamt toe voor het{" "}
@@ -126,9 +126,9 @@ export default function Facilities() {
             </p>
           </div>
           <div className="col-span-1 py-2">
-            <h3 className="font-semibold text-lg tracking-wider">
+            <h1 className="font-semibold text-lg tracking-wider">
               Sporten met personal trainer
-            </h3>
+            </h1>
             <p className="py-1">
               Heeft u zin om te sporten met of zonder personal trainer? Dat kan
               bij{" "}
