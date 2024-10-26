@@ -80,7 +80,7 @@ export default function UitkijktorenHulzenberg() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Prijzen</h2>
             <div className="text-[--color-text]">
-              € 199,00 per nacht(exclusief toeristenbelasting) boeking min. 2
+              € 199,00 per nacht(exclusief toeristenbelasting) booking min. 2
               nachten.
             </div>
           </div>
