@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Queensides';
-  src: url('/fonts/queensides.ttf') format('truetype');
+  font-family: 'Quicksand';
+  src: url('/fonts/quicksand.ttf') format('truetype');
 }
 
 @layer base {
@@ -36,6 +36,6 @@
 
 
   body {
-    @apply bg-[--color-bg] font-queensides
+    @apply bg-[--color-bg] font-quicksand
   }
 }

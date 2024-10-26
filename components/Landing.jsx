@@ -14,7 +14,7 @@ export default function Landing() {
           className="absolute inset-0 h-full w-full object-cover opacity-60"
         />
         <div className="relative z-10 max-w-3xl space-y-6 px-4 text-center text-gray-50 md:px-6">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             Welkom bij Longstay Achterhoek
           </h1>
           <p className="text-md md:text-3xl">
