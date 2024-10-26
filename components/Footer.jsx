@@ -19,7 +19,7 @@ export default function FooterComponent() {
                 <Image src={logo} width={200} height={200} alt="Logo" />
               </Link>
             </div>
-            <Footer.LinkGroup className="text-white uppercase">
+            <Footer.LinkGroup className="text-white uppercase gap-4 text-md">
               <Footer.Link href="#">Home</Footer.Link>
               <Footer.Link href="#about">Over Ons</Footer.Link>
               <Footer.Link href="#suites">Suites</Footer.Link>

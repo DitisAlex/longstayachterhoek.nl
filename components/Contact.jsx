@@ -164,12 +164,13 @@ export default function Contact() {
             <div className="mb-2">
               <div className="block uppercase">
                 <Label htmlFor="extra" value="Eventuele extra opmerkingen" />
+                <Textarea
+                  id="extra"
+                  name="extra"
+                  rows={4}
+                  aria-label="Voeg eventuele opmerkingen hier toe"
+                />
               </div>
-              <Textarea
-                name="extra"
-                rows={4}
-                aria-labelledby="Voeg eventuele opmerkingen hier toe"
-              />
             </div>
           </div>
           <Button
