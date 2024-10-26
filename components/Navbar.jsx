@@ -35,7 +35,7 @@ export default function NavbarComponent() {
       }`}
     >
       <div
-        className={`text-[--navbar-text] flex justify-between items-center w-full h-full px-6 mr-4 2xl:px-64 transition duration-300 ease-in ${
+        className={`text-[--navbar-text] flex justify-between items-center w-full h-full px-6 mr-4 xl:px-44 2xl:px-64 transition duration-300 ease-in ${
           hasScrolled ? "bg-[--navbar-primary]" : "bg-transparent"
         }`}
       >
