@@ -41,6 +41,7 @@ import img2 from "../../public/impressie/bergherbos/image00002.jpeg";
 import img3 from "../../public/impressie/bergherbos/image00003.jpeg";
 import img4 from "../../public/impressie/bergherbos/image00004.jpeg";
 import img5 from "../../public/impressie/bergherbos/image00005.jpeg";
+import plattegrond from "../../public/impressie/bergherbos/bos.jpg";
 
 export default function Bergherbos() {
   useEffect(() => {
@@ -268,6 +269,7 @@ export default function Bergherbos() {
                 <Image src={img3} alt="..." className="" />
                 <Image src={img4} alt="..." className="" />
                 <Image src={img5} alt="..." className="" />
+                <Image src={plattegrond} alt="..." className="" />
               </Carousel>
             </div>
           </div>

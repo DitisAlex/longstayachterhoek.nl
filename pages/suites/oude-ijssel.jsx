@@ -41,6 +41,7 @@ import img2 from "../../public/impressie/oude_ijssel/image00002.jpeg";
 import img3 from "../../public/impressie/oude_ijssel/image00003.jpeg";
 import img4 from "../../public/impressie/oude_ijssel/image00004.jpeg";
 import img5 from "../../public/impressie/oude_ijssel/image00005.jpeg";
+import plattegrond from "../../public/impressie/oude_ijssel/oude_ijssel.jpg";
 
 export default function OudeIjssel() {
   useEffect(() => {
@@ -268,6 +269,7 @@ export default function OudeIjssel() {
                 <Image src={img3} alt="..." className="" />
                 <Image src={img4} alt="..." className="" />
                 <Image src={img5} alt="..." className="" />
+                <Image src={plattegrond} alt="..." className="" />
               </Carousel>
             </div>
           </div>

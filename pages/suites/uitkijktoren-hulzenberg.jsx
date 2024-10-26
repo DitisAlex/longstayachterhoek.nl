@@ -41,6 +41,7 @@ import img2 from "../../public/impressie/uitkijktoren/image00002.jpeg";
 import img3 from "../../public/impressie/uitkijktoren/image00003.jpeg";
 import img4 from "../../public/impressie/uitkijktoren/image00004.jpeg";
 import img5 from "../../public/impressie/uitkijktoren/image00005.jpeg";
+import plattegrond from "../../public/impressie/uitkijktoren/uitkijktoren.jpg";
 
 export default function UitkijktorenHulzenberg() {
   useEffect(() => {
@@ -268,6 +269,7 @@ export default function UitkijktorenHulzenberg() {
                 <Image src={img3} alt="..." className="" />
                 <Image src={img4} alt="..." className="" />
                 <Image src={img5} alt="..." className="" />
+                <Image src={plattegrond} alt="..." className="" />
               </Carousel>
             </div>
           </div>

@@ -11,6 +11,7 @@ import img2 from "../../public/impressie/huis_bergh/image00002.jpeg";
 import img3 from "../../public/impressie/huis_bergh/image00003.jpeg";
 import img4 from "../../public/impressie/huis_bergh/image00004.jpeg";
 import img5 from "../../public/impressie/huis_bergh/image00005.jpeg";
+import plattegrond from "../../public/impressie/huis_bergh/huis_bergh.jpg";
 
 import {
   FaWifi,
@@ -268,6 +269,7 @@ export default function KasteelHuisBergh() {
                 <Image src={img3} alt="..." className="" />
                 <Image src={img4} alt="..." className="" />
                 <Image src={img5} alt="..." className="" />
+                <Image src={plattegrond} alt="..." className="" />
               </Carousel>
             </div>
           </div>

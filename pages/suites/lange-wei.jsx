@@ -11,6 +11,7 @@ import img2 from "../../public/impressie/langewei/image00002.jpeg";
 import img3 from "../../public/impressie/langewei/image00003.jpeg";
 import img4 from "../../public/impressie/langewei/image00004.jpeg";
 import img5 from "../../public/impressie/langewei/image00005.jpeg";
+import plattegrond from "../../public/impressie/langewei/lange_wei.jpg";
 
 import {
   FaWifi,
@@ -268,6 +269,7 @@ export default function LangeWei() {
                 <Image src={img3} alt="..." className="" />
                 <Image src={img4} alt="..." className="" />
                 <Image src={img5} alt="..." className="" />
+                <Image src={plattegrond} alt="..." className="" />
               </Carousel>
             </div>
           </div>
