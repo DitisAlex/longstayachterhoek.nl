@@ -94,7 +94,7 @@ export default function OudeIjssel() {
                 <li>
                   • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
-                  woonkamer/keuken met aangrenzend een eigen terras met uitzet
+                  woonkamer/keuken met aangrenzend een eigen terras met uitzicht
                   op het Montferlandse bos.
                 </li>
                 <li>
@@ -103,15 +103,15 @@ export default function OudeIjssel() {
                     Volledig uitgeruste keuken:
                   </span>{" "}
                   Bereid uw favoriete maaltijden met gemak dankzij onze moderne
-                  keukenfaciliteiten met o.a. vaatwasser, combimagnetron/oven,
+                  keukenfaciliteiten met o.a.: vaatwasser, combimagnetron/oven,
                   waterkoker en koffiezetapparaat.
                 </li>
                 <li>
                   • <span className="font-semibold">Privé badkamer:</span> Uw
                   comfort is onze prioriteit, daarom beschikt ons appartement
                   over een eigen badkamer voor uw gemak. Deze beschikt over een
-                  inloopdouche, een dubbele wastafel, design radiator en
-                  haarfohn. Met een separaat toilet.
+                  inloopdouche, een dubbele wastafel, designradiator en
+                  haarföhn. Met een separaat toilet.
                 </li>
                 <li>
                   • <span className="font-semibold">Gratis Wi-Fi:</span> Blijf
@@ -122,8 +122,9 @@ export default function OudeIjssel() {
                   • <span className="font-semibold">Centrale locatie:</span> Ons
                   appartement bevindt zich vlakbij belangrijke uitvalswegen. Op
                   loopafstand van het Montferlandse bos, het busstation, een
-                  supermarkt en vele eetgelegenheden (inclusief dagelijks
-                  ontbijt vanaf 07:00 bij BROODS).
+                  supermarkt en vele eetgelegenheden waaronder een
+                  ontbijtgelegenheid op loopafstand welke dagelijks geopend is
+                  vanaf 07:00 uur (BROODS).
                 </li>
               </ul>
             </div>
@@ -250,7 +251,7 @@ export default function OudeIjssel() {
               <li className="flex items-center space-x-2 py-1">
                 <IoRestaurant className="text-2xl" />
                 <span>
-                  Authentieke aziatische A La Carte gerechten bij Chinees
+                  Authentieke aziatische à la carte gerechten bij Chinees
                   restaurant Sin Chen.
                 </span>
               </li>
@@ -280,19 +281,19 @@ export default function OudeIjssel() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Inspiratie</h2>
             <p className="py-2 text-[--color-text]">
-              Dit appartement ademt de sfeer van rivier de oude Ijssel. De Oude
-              IJssel is een zijrivier van de IJssel en heeft een rijke
-              geschiedenis. De rivier begint in Duitsland onde de naam Issel en
-              stroomt via de gemeenten Oude Ijsselstreek, Doetinchem en
-              Bronckhorst, waarna ze bij Doesburg in de Ijssel uitmondt.
+              Dit appartement ademt de sfeer van rivier de Oude IJssel. Dit is
+              een zijrivier van de IJssel en heeft een rijke geschiedenis. De
+              rivier begint in Duitsland onder de naam Issel en stroomt via de
+              gemeenten Oude Ijsselstreek, Doetinchem en Bronckhorst, waarna ze
+              bij Doesburg in de Ijssel uitmondt.
               <br />
               <br />
               Historisch gezien heeft de Oude IJssel een belangrijke rol
-              gespeeld in de regio. De rivier ontspringt in de Kreis Borken in
-              Duitsland en stroomt door een zacht glooiend landschap voordat ze
-              Nederland bereikt bij Gendringen. In Nederland stroomt de riveir
-              door verschillende gemeenten en mondt uiteindelijk uit in de
-              Ijssel bij Doesburg.
+              gespeeld in de regio. De rivier ontspringt in Kreis (district)
+              Borken in Duitsland en stroomt door een zacht glooiend landschap
+              voordat ze Nederland bereikt bij Gendringen. In Nederland stroomt
+              de riveir door verschillende gemeenten en mondt uiteindelijk uit
+              in de Ijssel bij Doesburg.
               <br />
               <br />
               De Oude IJssel heeft ook bijgedragen aan de ontwikkeling van de
@@ -322,7 +323,7 @@ export default function OudeIjssel() {
                 </Button>
               </Link>
               <p className="text-[--color-text] py-2 pt-6">
-                Wilt u echter zakelijk verblijven? Klik dan hier.
+                Wilt u zakelijk verblijven? Klik dan hier.
               </p>
               <Link href="/#zakelijk">
                 <Button

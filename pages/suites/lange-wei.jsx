@@ -97,7 +97,7 @@ export default function LangeWei() {
                   • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras in onze
-                  binnen patio.
+                  binnenpatio.
                 </li>
                 <li>
                   •{" "}
@@ -105,15 +105,15 @@ export default function LangeWei() {
                     Volledig uitgeruste keuken:
                   </span>{" "}
                   Bereid uw favoriete maaltijden met gemak dankzij onze moderne
-                  keukenfaciliteiten met o.a. vaatwasser, combimagnetron/oven,
+                  keukenfaciliteiten met o.a.: vaatwasser, combimagnetron/oven,
                   waterkoker en koffiezetapparaat.
                 </li>
                 <li>
                   • <span className="font-semibold">Privé badkamer:</span> Uw
                   comfort is onze prioriteit, daarom beschikt ons appartement
                   over een eigen badkamer voor uw gemak. Deze beschikt over een
-                  inloopdouche, een dubbele wastafel, design radiator en
-                  haarfohn.
+                  inloopdouche, een dubbele wastafel, designradiator en
+                  haarföhn.
                 </li>
                 <li>
                   • <span className="font-semibold">Gratis Wi-Fi:</span> Blijf
@@ -124,9 +124,9 @@ export default function LangeWei() {
                   • <span className="font-semibold">Centrale locatie:</span> Ons
                   appartement bevindt zich vlakbij belangrijke uitvalswegen. Op
                   loopafstand van het Montferlandse bos, het busstation, een
-                  supermarkt en vele eetgelegenheden (inclusief dagelijks
-                  ontbijt vanaf 07:00 bij BROODS).
-                </li>
+                  supermarkt en vele eetgelegenheden waaronder een
+                  ontbijtgelegenheid op loopafstand welke dagelijks geopend is
+                  vanaf 07:00 uur (BROODS).
               </ul>
             </div>
           </div>
@@ -252,7 +252,7 @@ export default function LangeWei() {
               <li className="flex items-center space-x-2 py-1">
                 <IoRestaurant className="text-2xl" />
                 <span>
-                  Authentieke aziatische A La Carte gerechten bij Chinees
+                  Authentieke aziatische à la carte gerechten bij Chinees
                   restaurant Sin Chen.
                 </span>
               </li>
@@ -283,17 +283,16 @@ export default function LangeWei() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Inspiratie</h2>
             <p className="py-2 text-[--color-text]">
-              De naam zegt het al. In deze kamer wordt je verwelkomd door een
+              De naam zegt het al. In deze kamer word je verwelkomd door een
               nieuwsgierige koe.
               <br />
               <br />
               De Lange Wei is een oude naam voor de weg vanaf Vinkwijk naar de
-              Langeboomstestraat in Vethuizen. Het is een gebied met landerijen
-              en boerderijen en waar de koeien nog heerlijk buiten staan te
-              grazen. Maar ook een gebied waar het prachtig fietsen is, vooral
+              Langeboomstestraat in Vethuizen. Het is een gebied met landerijen en boerderijen, waar de koeien
+              nog heerlijk buiten staan te grazen. Maar ook een gebied waar het prachtig fietsen is, vooral
               in de vroege ochtenden wanneer de dauw nog op de weilanden
               aanwezig is en waar je kunt genieten van de vele vogelsoorten die
-              het rijk is. Een prachtig gebied aan de rand van Zeddam.
+              het gebied rijk is. Een prachtig gebied aan de rand van Zeddam.
             </p>
           </div>
         </div>
@@ -316,7 +315,7 @@ export default function LangeWei() {
                 </Button>
               </Link>
               <p className="text-[--color-text] py-2 pt-6">
-                Wilt u echter zakelijk verblijven? Klik dan hier.
+                Wilt u zakelijk verblijven? Klik dan hier.
               </p>
               <Link href="/#zakelijk">
                 <Button

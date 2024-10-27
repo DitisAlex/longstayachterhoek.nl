@@ -95,7 +95,7 @@ export default function KasteelHuisBergh() {
                 <li>
                   • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
-                  woonkamer/keuken met aangrenzend een eigen terras met uitzet
+                  woonkamer/keuken met aangrenzend een eigen terras met uitzicht
                   op het Montferlandse bos.
                 </li>
                 <li>
@@ -104,15 +104,15 @@ export default function KasteelHuisBergh() {
                     Volledig uitgeruste keuken:
                   </span>{" "}
                   Bereid uw favoriete maaltijden met gemak dankzij onze moderne
-                  keukenfaciliteiten met o.a. vaatwasser, combimagnetron/oven,
+                  keukenfaciliteiten met o.a.: vaatwasser, combimagnetron/oven,
                   waterkoker en koffiezetapparaat.
                 </li>
                 <li>
                   • <span className="font-semibold">Privé badkamer:</span> Uw
                   comfort is onze prioriteit, daarom beschikt ons appartement
                   over een eigen badkamer voor uw gemak. Deze beschikt over een
-                  inloopdouche, een dubbele wastafel, design radiator en
-                  haarfohn. Met een separaat toilet.
+                  inloopdouche, een dubbele wastafel, designradiator en
+                  haarföhn. Met een separaat toilet.
                 </li>
                 <li>
                   • <span className="font-semibold">Gratis Wi-Fi:</span> Blijf
@@ -123,8 +123,9 @@ export default function KasteelHuisBergh() {
                   • <span className="font-semibold">Centrale locatie:</span> Ons
                   appartement bevindt zich vlakbij belangrijke uitvalswegen. Op
                   loopafstand van het Montferlandse bos, het busstation, een
-                  supermarkt en vele eetgelegenheden (inclusief dagelijks
-                  ontbijt vanaf 07:00 bij BROODS).
+                  supermarkt en vele eetgelegenheden waaronder een
+                  ontbijtgelegenheid op loopafstand welke dagelijks geopend is
+                  vanaf 07:00 uur (BROODS).
                 </li>
               </ul>
             </div>
@@ -251,7 +252,7 @@ export default function KasteelHuisBergh() {
               <li className="flex items-center space-x-2 py-1">
                 <IoRestaurant className="text-2xl" />
                 <span>
-                  Authentieke aziatische A La Carte gerechten bij Chinees
+                  Authentieke aziatische à la carte gerechten bij Chinees
                   restaurant Sin Chen.
                 </span>
               </li>
@@ -285,9 +286,10 @@ export default function KasteelHuisBergh() {
               Nederland rijk is, Kasteel Huis Bergh. Huis Bergh is een kasteel
               en museum in de stad &#39;s-Heerenberg in de gemeente Montferland,
               in de Nederlandse provincie Gelderland. Huis Bergh was het
-              stamslot van de graven van Bergh. Het Land van den Bergh was vóór
-              1486 een bannerij en vanaf 1486 (rijks-)graafschap Bergh. Huis
-              Bergh is de grootste waterburcht in Nederland.
+              stamslot van de graven van Bergh. Het land van den Bergh was vóór
+              1486 een bannerij, een grondgebied dat in leen was gegeven aan een
+              bannerheer en vanaf 1486 (rijks-)graafschap Bergh. Huis Bergh is
+              de grootste waterburcht in Nederland.
               <br />
               <br />
               Huis Bergh is van de 12e eeuw tot en met de 20e eeuw bewoond
@@ -323,7 +325,7 @@ export default function KasteelHuisBergh() {
                 </Button>
               </Link>
               <p className="text-[--color-text] py-2 pt-6">
-                Wilt u echter zakelijk verblijven? Klik dan hier.
+                Wilt u zakelijk verblijven? Klik dan hier.
               </p>
               <Link href="/#zakelijk">
                 <Button

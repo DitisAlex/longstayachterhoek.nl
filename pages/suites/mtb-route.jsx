@@ -94,7 +94,7 @@ export default function MTBRoute() {
                 <li>
                   • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
-                  woonkamer/keuken met aangrenzend een eigen terras met uitzet
+                  woonkamer/keuken met aangrenzend een eigen terras met uitzicht
                   op het Montferlandse bos.
                 </li>
                 <li>
@@ -103,15 +103,15 @@ export default function MTBRoute() {
                     Volledig uitgeruste keuken:
                   </span>{" "}
                   Bereid uw favoriete maaltijden met gemak dankzij onze moderne
-                  keukenfaciliteiten met o.a. vaatwasser, combimagnetron/oven,
+                  keukenfaciliteiten met o.a.: vaatwasser, combimagnetron/oven,
                   waterkoker en koffiezetapparaat.
                 </li>
                 <li>
                   • <span className="font-semibold">Privé badkamer:</span> Uw
                   comfort is onze prioriteit, daarom beschikt ons appartement
                   over een eigen badkamer voor uw gemak. Deze beschikt over een
-                  inloopdouche, een dubbele wastafel, design radiator en
-                  haarfohn. Met een separaat toilet.
+                  inloopdouche, een dubbele wastafel, designradiator en
+                  haarföhn. Met een separaat toilet.
                 </li>
                 <li>
                   • <span className="font-semibold">Gratis Wi-Fi:</span> Blijf
@@ -122,8 +122,9 @@ export default function MTBRoute() {
                   • <span className="font-semibold">Centrale locatie:</span> Ons
                   appartement bevindt zich vlakbij belangrijke uitvalswegen. Op
                   loopafstand van het Montferlandse bos, het busstation, een
-                  supermarkt en vele eetgelegenheden (inclusief dagelijks
-                  ontbijt vanaf 07:00 bij BROODS).
+                  supermarkt en vele eetgelegenheden waaronder een
+                  ontbijtgelegenheid op loopafstand welke dagelijks geopend is
+                  vanaf 07:00 uur (BROODS).
                 </li>
               </ul>
             </div>
@@ -250,7 +251,7 @@ export default function MTBRoute() {
               <li className="flex items-center space-x-2 py-1">
                 <IoRestaurant className="text-2xl" />
                 <span>
-                  Authentieke aziatische A La Carte gerechten bij Chinees
+                  Authentieke aziatische à la carte gerechten bij Chinees
                   restaurant Sin Chen.
                 </span>
               </li>
@@ -279,14 +280,14 @@ export default function MTBRoute() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Inspiratie</h2>
             <p className="py-2 text-[--color-text]">
-              Een suite geschikt voor de fervent fietser. Deze kamer is een ode
+              Een suite geschikt voor de fervente fietser. Deze kamer is een ode
               aan een van de mooiste mountainbike routes van Nederland.
               <br />
               <br />
               Ga erop uit en beleef het prachtige Montferland met de
               mountainbike. Deze 26 kilometer lange mountainbikeroute gaat van
               start in Braamt. Tijdens de route rijdt u door het Bergherbos wat
-              maar liefst 2000 hectare groot is. De MTB-route heeft veel
+              maar liefst 2000 hectare groot is. De MTB-route kent veel
               hoogteverschil, waardoor deze route een mooie en sportieve
               uitdaging is.
               <br />
@@ -307,7 +308,7 @@ export default function MTBRoute() {
               hotspot is de Motte. De Motte is een heuvel in Zeddam die door
               mensen is opgehoogd. Vroeger stond op deze plek een burcht genaamd
               ‘Montferrand’ dat later het Montferland is gaan heten. In Zeddam
-              vind je ook de de oudste nog bestaande windmolem van Nederland, de
+              vind je ook de oudste nog bestaande windmolem van Nederland, de
               Grafelijke Korenmolen. Verder op de route is er in Stokkum de
               uitkijktoren Hulzenberg. Vanaf deze 20 meter hoge uitkijktoren
               kunt u genieten van het uitzicht tot ver in de Achterhoek.
@@ -337,7 +338,7 @@ export default function MTBRoute() {
                 </Button>
               </Link>
               <p className="text-[--color-text] py-2 pt-6">
-                Wilt u echter zakelijk verblijven? Klik dan hier.
+                Wilt u zakelijk verblijven? Klik dan hier.
               </p>
               <Link href="/#zakelijk">
                 <Button

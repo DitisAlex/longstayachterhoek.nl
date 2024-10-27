@@ -95,7 +95,7 @@ export default function UitkijktorenHulzenberg() {
                 <li>
                   • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
-                  woonkamer/keuken met aangrenzend een eigen terras met uitzet
+                  woonkamer/keuken met aangrenzend een eigen terras met uitzicht
                   op het Montferlandse bos.
                 </li>
                 <li>
@@ -104,15 +104,15 @@ export default function UitkijktorenHulzenberg() {
                     Volledig uitgeruste keuken:
                   </span>{" "}
                   Bereid uw favoriete maaltijden met gemak dankzij onze moderne
-                  keukenfaciliteiten met o.a. vaatwasser, combimagnetron/oven,
+                  keukenfaciliteiten met o.a.: vaatwasser, combimagnetron/oven,
                   waterkoker en koffiezetapparaat.
                 </li>
                 <li>
                   • <span className="font-semibold">Privé badkamer:</span> Uw
                   comfort is onze prioriteit, daarom beschikt ons appartement
                   over een eigen badkamer voor uw gemak. Deze beschikt over een
-                  inloopdouche, een dubbele wastafel, design radiator en
-                  haarfohn. Met een separaat toilet.
+                  inloopdouche, een dubbele wastafel, designradiator en
+                  haarföhn. Met een separaat toilet.
                 </li>
                 <li>
                   • <span className="font-semibold">Gratis Wi-Fi:</span> Blijf
@@ -123,8 +123,9 @@ export default function UitkijktorenHulzenberg() {
                   • <span className="font-semibold">Centrale locatie:</span> Ons
                   appartement bevindt zich vlakbij belangrijke uitvalswegen. Op
                   loopafstand van het Montferlandse bos, het busstation, een
-                  supermarkt en vele eetgelegenheden (inclusief dagelijks
-                  ontbijt vanaf 07:00 bij BROODS).
+                  supermarkt en vele eetgelegenheden waaronder een
+                  ontbijtgelegenheid op loopafstand welke dagelijks geopend is
+                  vanaf 07:00 uur (BROODS).
                 </li>
               </ul>
             </div>
@@ -251,7 +252,7 @@ export default function UitkijktorenHulzenberg() {
               <li className="flex items-center space-x-2 py-1">
                 <IoRestaurant className="text-2xl" />
                 <span>
-                  Authentieke aziatische A La Carte gerechten bij Chinees
+                  Authentieke aziatische à la carte gerechten bij Chinees
                   restaurant Sin Chen.
                 </span>
               </li>
@@ -282,9 +283,9 @@ export default function UitkijktorenHulzenberg() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Inspiratie</h2>
             <p className="py-2 text-[--color-text]">
-              Ons appartement &#39;de Uitkijktoren ademt de sfeer van een van de
-              prachtige bezienswaardigheden die onze regio rijk is. Deze 21
-              meter hoge uitkijktoren ligt in het Bergerbos te Stokkum. De
+              Ons appartement &#39;de Uitkijktoren&#39; ademt de sfeer van een
+              van de prachtige bezienswaardigheden die onze regio rijk is. Deze
+              21 meter hoge uitkijktoren ligt in het Bergerbos te Stokkum. De
               Hulzenberg is gebouwd in opdracht van de gemeente en gemaakt van
               het hout dat uit het Bergerbos komt. Sinds 2015 is de Hulzenberg
               ook toegankelijk voor toeristen. <br />
@@ -292,15 +293,15 @@ export default function UitkijktorenHulzenberg() {
               Bergerbos aan het wandelen bent. Een kilometer van de uitkijktoren
               is er een parkeerplaats, waardoor de Hulzenberg via grote en
               kleine wandelroutes bereikbaar is. De toren is 21 meter hoog en
-              bevindt zich meer dan 100 meter boven NAP. Dit zorgt ervoor dat er
-              een fantastisch uitzicht is. Boven op de toren staan de gebieden
-              aangegeven waar u naar kijkt. Op deze manier ziet u van bovenaf
-              wat het mooie Montferland, de Achterhoek en zelfs Duitsland te
-              bieden heeft. De uitkijktoren is opgenomen in diverse wandelroutes
-              in het Bergherbos. Alleen al het wandelen door Montferland is
-              prachtig. De route naar de uitkijktoren is goed te doen. Eenmaal
-              boven ben je gauw even stil om daarna te genieten van het
-              geweldige uitzicht.
+              bevindt zich meer dan 100 meter boven NAP. Dit zorgt voor een
+              fantastisch uitzicht. Boven op de toren staan de gebieden
+              aangegeven waar u naar kijkt. Op deze manier krijgt u een mooie
+              impressie van 'ons' mooie Montferland, de Achterhoek en de
+              natuurlijke overgang naar het aangrenzende Duitsland. De
+              uitkijktoren is opgenomen in diverse wandelroutes in het
+              Bergherbos. Alleen al het wandelen door Montferland is prachtig.
+              De route naar de uitkijktoren is goed te doen. Eenmaal boven sta
+              je even stil om daarna te genieten van het geweldige uitzicht.
             </p>
           </div>
         </div>
@@ -323,7 +324,7 @@ export default function UitkijktorenHulzenberg() {
                 </Button>
               </Link>
               <p className="text-[--color-text] py-2 pt-6">
-                Wilt u echter zakelijk verblijven? Klik dan hier.
+                Wilt u zakelijk verblijven? Klik dan hier.
               </p>
               <Link href="/#zakelijk">
                 <Button

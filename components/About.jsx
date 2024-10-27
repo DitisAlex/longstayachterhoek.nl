@@ -14,13 +14,13 @@ export default function About() {
           <p className="py-2 text-[--color-text]">
             Longstay Achterhoek is gevestigd in het achterste deel van het pand
             gelegen aan de Terborgseweg 2 te Zeddam waar voorheen een succesvol
-            buffetrestaurant werd gerund met 300 zitplaatsen. Na een rigoreuze
+            buffetrestaurant werd gerund met 300 zitplaatsen. Na een rigoureuze
             verbouwing is het nu veranderd in een prachtig aparthotel met negen
             volledig ingerichte suites. Aan de voorzijde kan er nog steeds
             heerlijk worden gegeten in{" "}
             <Link href="https://sinchen.nl/" target="_blank">
               <span className="underline text-[--navbar-primary]">
-                het a la Carte restaurant, Sin Chen,
+                het à la carte restaurant, Sin Chen,
               </span>
             </Link>{" "}
             ook gerund door de familie die als motto heeft: &#39;stilstand is
@@ -31,7 +31,7 @@ export default function About() {
             <br />
             <br />
             Onze appartementen zijn nieuw gebouwd en voorzien van alle comfort
-            en gemakken inclusief eigen pantry. Daarnaast zijn ze erg ruim en
+            en gemakken, inclusief eigen pantry. Daarnaast zijn ze erg ruim en
             beschikt ieder appartement over een eigen terras. Het Montferlandse
             bos, een van de mooiste natuurgebieden in Nederland, ligt op
             loopafstand (350m). Longstay Achterhoek biedt haar gasten rust,

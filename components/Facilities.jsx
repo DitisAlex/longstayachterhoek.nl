@@ -100,14 +100,19 @@ export default function Facilities() {
               Vers ontbijt
             </h1>
             <p className="py-1">
-              Liever in de ochtend gelijk een kant en klaar broodje voor uw
-              neus? Op loopafstand kunt u een vers ontbijt halen bij{" "}
+              Wenst u in de ochtend gebruik te maken van een voor u vers bereid
+              ontbijt? Op loopafstand kunt u hiervan gebruik maken bij{" "}
               <Link href="https://www.broodsbroodjesbar.nl/" target="_blank">
                 <span className="underline text-[--navbar-primary]">
                   BROODS
                 </span>
               </Link>
               .
+              <br />
+              <br />
+              <span className="italic">
+                (Dagelijks geopend vanaf 07:00 uur)
+              </span>
             </p>
           </div>
           <div className="col-span-1 py-2">

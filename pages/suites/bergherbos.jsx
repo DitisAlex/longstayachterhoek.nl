@@ -94,7 +94,7 @@ export default function Bergherbos() {
                 <li>
                   • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
-                  woonkamer/keuken met aangrenzend een eigen terras met uitzet
+                  woonkamer/keuken met aangrenzend een eigen terras met uitzicht
                   op het Montferlandse bos.
                 </li>
                 <li>
@@ -103,15 +103,15 @@ export default function Bergherbos() {
                     Volledig uitgeruste keuken:
                   </span>{" "}
                   Bereid uw favoriete maaltijden met gemak dankzij onze moderne
-                  keukenfaciliteiten met o.a. vaatwasser, combimagnetron/oven,
+                  keukenfaciliteiten met o.a.: vaatwasser, combimagnetron/oven,
                   waterkoker en koffiezetapparaat.
                 </li>
                 <li>
                   • <span className="font-semibold">Privé badkamer:</span> Uw
                   comfort is onze prioriteit, daarom beschikt ons appartement
                   over een eigen badkamer voor uw gemak. Deze beschikt over een
-                  inloopdouche, een dubbele wastafel, design radiator en
-                  haarfohn. Met een separaat toilet.
+                  inloopdouche, een dubbele wastafel, designradiator en
+                  haarföhn. Met een separaat toilet.
                 </li>
                 <li>
                   • <span className="font-semibold">Gratis Wi-Fi:</span> Blijf
@@ -122,8 +122,9 @@ export default function Bergherbos() {
                   • <span className="font-semibold">Centrale locatie:</span> Ons
                   appartement bevindt zich vlakbij belangrijke uitvalswegen. Op
                   loopafstand van het Montferlandse bos, het busstation, een
-                  supermarkt en vele eetgelegenheden (inclusief dagelijks
-                  ontbijt vanaf 07:00 bij BROODS).
+                  supermarkt en vele eetgelegenheden waaronder een
+                  ontbijtgelegenheid op loopafstand welke dagelijks geopend is
+                  vanaf 07:00 uur (BROODS).
                 </li>
               </ul>
             </div>
@@ -250,7 +251,7 @@ export default function Bergherbos() {
               <li className="flex items-center space-x-2 py-1">
                 <IoRestaurant className="text-2xl" />
                 <span>
-                  Authentieke aziatische A La Carte gerechten bij Chinees
+                  Authentieke aziatische à la carte gerechten bij Chinees
                   restaurant Sin Chen.
                 </span>
               </li>
@@ -292,11 +293,11 @@ export default function Bergherbos() {
               <br />
               De stuwwal waar het Bergherbos op ligt ontstond toen zo&#39;n
               200.000 jaar geleden gigantische ijsmassa&#39;s vanuit het noorden
-              bergen van grond en stenen voor zich uit stuwden. Het ijs smolt
-              later weg en de stuwwallen bleven achter. Ze dragen vele sporen
-              uit het verleden. Er is duizenden jaren gewoond en geploegd, er is
-              ijzererts gewonnen en gevochten, er zijn bomen gekapt en weer
-              nieuwe geplant.
+              enorme massa's grond en stenen voor zich uit stuwden. Het ijs
+              smolt later weg en de stuwwallen bleven achter. Ze dragen vele
+              sporen uit het verleden. Er is duizenden jaren gewoond en
+              geploegd, er is ijzererts gewonnen en gevochten, er zijn bomen
+              gekapt en weer nieuwe geplant.
               <br />
               <br />
               Wandelen, fietsen, mountainbiken, paardrijden, spelen of vakantie
@@ -305,8 +306,8 @@ export default function Bergherbos() {
               en akkers. De lengte varieert van 2 tot 7 kilometer. Combineer je
               de routes dan kun je nog langer wandelen. Voor mountainbikers ligt
               er een speciale route met veel hoogteverschillen
-              (vergunningverplicht). Ruiters en menners kunnen hier hun eigen
-              route uitstippelen. Ook voor hen is een vergunning verplicht.
+              (vergunningplicht). Ruiters en menners kunnen hier hun eigen route
+              uitstippelen. Ook voor hen is een vergunning verplicht.
             </p>
           </div>
         </div>
@@ -329,7 +330,7 @@ export default function Bergherbos() {
                 </Button>
               </Link>
               <p className="text-[--color-text] py-2 pt-6">
-                Wilt u echter zakelijk verblijven? Klik dan hier.
+                Wilt u zakelijk verblijven? Klik dan hier.
               </p>
               <Link href="/#zakelijk">
                 <Button

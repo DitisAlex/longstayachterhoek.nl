@@ -97,7 +97,7 @@ export default function Padevoort() {
                   • <span className="font-semibold">Ruime woonruimte: </span>
                   Door de aanwezige ruimte kunt u genieten van een gezellige
                   woonkamer/keuken met aangrenzend een eigen terras in onze
-                  binnen patio.
+                  binnenpatio.
                 </li>
                 <li>
                   •{" "}
@@ -105,15 +105,15 @@ export default function Padevoort() {
                     Volledig uitgeruste keuken:
                   </span>{" "}
                   Bereid uw favoriete maaltijden met gemak dankzij onze moderne
-                  keukenfaciliteiten met o.a. vaatwasser, combimagnetron/oven,
+                  keukenfaciliteiten met o.a.: vaatwasser, combimagnetron/oven,
                   waterkoker en koffiezetapparaat.
                 </li>
                 <li>
                   • <span className="font-semibold">Privé badkamer:</span> Uw
                   comfort is onze prioriteit, daarom beschikt ons appartement
                   over een eigen badkamer voor uw gemak. Deze beschikt over een
-                  inloopdouche, een dubbele wastafel, design radiator en
-                  haarfohn.
+                  inloopdouche, een dubbele wastafel, designradiator en
+                  haarföhn.
                 </li>
                 <li>
                   • <span className="font-semibold">Gratis Wi-Fi:</span> Blijf
@@ -124,8 +124,9 @@ export default function Padevoort() {
                   • <span className="font-semibold">Centrale locatie:</span> Ons
                   appartement bevindt zich vlakbij belangrijke uitvalswegen. Op
                   loopafstand van het Montferlandse bos, het busstation, een
-                  supermarkt en vele eetgelegenheden (inclusief dagelijks
-                  ontbijt vanaf 07:00 bij BROODS).
+                  supermarkt en vele eetgelegenheden waaronder een
+                  ontbijtgelegenheid op loopafstand welke dagelijks geopend is
+                  vanaf 07:00 uur (BROODS).
                 </li>
               </ul>
             </div>
@@ -252,7 +253,7 @@ export default function Padevoort() {
               <li className="flex items-center space-x-2 py-1">
                 <IoRestaurant className="text-2xl" />
                 <span>
-                  Authentieke aziatische A La Carte gerechten bij Chinees
+                  Authentieke aziatische à la carte gerechten bij Chinees
                   restaurant Sin Chen.
                 </span>
               </li>
@@ -293,15 +294,16 @@ export default function Padevoort() {
               <br />
               Padevoort wordt rond 1272 genoemd onder de naam Pedelvuort als
               gebiedsbezit van het klooster Bethlehem. In 1280 is het als
-              akkerland in bezit van Henrick van Hesehusen die Pedelvoort in
+              akkerland in bezit van Henrick van Hesehusen die Pedelvuort in
               1281 overdraagt aan Heer Jacob, pastoor van Zeddam. Aangenomen
               wordt dat het huis op deze akkers is gebouwd en dat het daar zijn
               naam aan ontleent. In 1375 is er sprake van een geslacht Van den
               Padevoort dat gerekend wordt tot de riddermatigen van &#39;het
               land van den Bergh&#39; met de havezate Padevoort als stamhuis. In
-              1666 kwam het door een naasting in het bezit van de Heren van den
-              Bergh en werd het als jachthuis ingericht. In 1875 werd het gebouw
-              verkocht aan de Franciscanessen van Heythuysen en vervolgens als
+              1666 kwam het door een naasting (het recht als eerste een zeker
+              goed te kopen) in het bezit van de Heren van den Bergh en werd het
+              als jachthuis ingericht. In 1875 werd het gebouw verkocht aan de
+              Franciscanessen van Heythuysen en vervolgens als
               Sint-Jozefklooster ingericht. De zusters vestigden er tevens een
               meisjesschool en een gebouw voor wijkverpleging (tot 1949
               &#34;Vereeniging van Vrouwen&#34;).[1] In 1968 werd de Padevoort
@@ -331,7 +333,7 @@ export default function Padevoort() {
                 </Button>
               </Link>
               <p className="text-[--color-text] py-2 pt-6">
-                Wilt u echter zakelijk verblijven? Klik dan hier.
+                Wilt u zakelijk verblijven? Klik dan hier.
               </p>
               <Link href="/#zakelijk">
                 <Button
