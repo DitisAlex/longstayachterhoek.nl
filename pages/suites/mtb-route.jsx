@@ -39,8 +39,10 @@ import { BsSafeFill } from "react-icons/bs";
 import img1 from "../../public/impressie/mtb/image00001.jpeg";
 import img2 from "../../public/impressie/mtb/image00002.jpeg";
 import img3 from "../../public/impressie/mtb/image00003.jpeg";
-import img4 from "../../public/impressie/mtb/image00004.jpeg";
 import img5 from "../../public/impressie/mtb/image00005.jpeg";
+import img6 from "../../public/impressie/mtb/Longstay Achterhoek-44.jpg";
+import img7 from "../../public/impressie/mtb/Longstay Achterhoek-58.jpg";
+
 import plattegrond from "../../public/impressie/mtb/mtb.jpg";
 
 export default function MTBRoute() {
@@ -264,10 +266,11 @@ export default function MTBRoute() {
             <h2 className="text-2xl font-semibold">Impressie</h2>
             <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
               <Carousel slideInterval={5000}>
+                <Image src={img6} alt="..." className="" />
                 <Image src={img1} alt="..." className="" />
                 <Image src={img2} alt="..." className="" />
                 <Image src={img3} alt="..." className="" />
-                <Image src={img4} alt="..." className="" />
+                <Image src={img7} alt="..." className="" />
                 <Image src={img5} alt="..." className="" />
                 <Image src={plattegrond} alt="..." className="" />
               </Carousel>

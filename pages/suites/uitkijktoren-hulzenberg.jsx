@@ -40,7 +40,10 @@ import img1 from "../../public/impressie/uitkijktoren/image00001.jpeg";
 import img2 from "../../public/impressie/uitkijktoren/image00002.jpeg";
 import img3 from "../../public/impressie/uitkijktoren/image00003.jpeg";
 import img4 from "../../public/impressie/uitkijktoren/image00004.jpeg";
-import img5 from "../../public/impressie/uitkijktoren/image00005.jpeg";
+import img6 from "../../public/impressie/uitkijktoren/Longstay Achterhoek-04.jpg";
+import img7 from "../../public/impressie/uitkijktoren/Longstay Achterhoek-05.jpg";
+import img8 from "../../public/impressie/uitkijktoren/Longstay Achterhoek-06.jpg";
+import img9 from "../../public/impressie/uitkijktoren/Longstay Achterhoek-07.jpg";
 import plattegrond from "../../public/impressie/uitkijktoren/uitkijktoren.jpg";
 
 export default function UitkijktorenHulzenberg() {
@@ -264,11 +267,14 @@ export default function UitkijktorenHulzenberg() {
             <h2 className="text-2xl font-semibold">Impressie</h2>
             <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
               <Carousel slideInterval={5000}>
+                <Image src={img6} alt="..." className="" />
+                <Image src={img7} alt="..." className="" />
+                <Image src={img9} alt="..." className="" />
                 <Image src={img1} alt="..." className="" />
                 <Image src={img2} alt="..." className="" />
                 <Image src={img3} alt="..." className="" />
+                <Image src={img8} alt="..." className="" />
                 <Image src={img4} alt="..." className="" />
-                <Image src={img5} alt="..." className="" />
                 <Image src={plattegrond} alt="..." className="" />
               </Carousel>
             </div>
