@@ -3,6 +3,7 @@ import { Flowbite } from "flowbite-react";
 import NavbarComponent from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 import { useEffect } from "react";
 import logo from "../../public/hd/torenmolen4k.jpg";
 
@@ -63,6 +64,13 @@ export default function Torenmolen() {
 
   return (
     <div>
+      <Head>
+        <title>De Torenmolen - Longstay Achterhoek</title>
+        <meta
+          name="description"
+          content="De Torenmolen suite bij Longstay Achterhoek"
+        />
+      </Head>
       <NavbarComponent />
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/30 z-10"></div>
