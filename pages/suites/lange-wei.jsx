@@ -127,6 +127,7 @@ export default function LangeWei() {
                   supermarkt en vele eetgelegenheden waaronder een
                   ontbijtgelegenheid op loopafstand welke dagelijks geopend is
                   vanaf 07:00 uur (BROODS).
+                </li>
               </ul>
             </div>
           </div>
@@ -288,8 +289,9 @@ export default function LangeWei() {
               <br />
               <br />
               De Lange Wei is een oude naam voor de weg vanaf Vinkwijk naar de
-              Langeboomstestraat in Vethuizen. Het is een gebied met landerijen en boerderijen, waar de koeien
-              nog heerlijk buiten staan te grazen. Maar ook een gebied waar het prachtig fietsen is, vooral
+              Langeboomstestraat in Vethuizen. Het is een gebied met landerijen
+              en boerderijen, waar de koeien nog heerlijk buiten staan te
+              grazen. Maar ook een gebied waar het prachtig fietsen is, vooral
               in de vroege ochtenden wanneer de dauw nog op de weilanden
               aanwezig is en waar je kunt genieten van de vele vogelsoorten die
               het gebied rijk is. Een prachtig gebied aan de rand van Zeddam.

@@ -296,8 +296,8 @@ export default function UitkijktorenHulzenberg() {
               bevindt zich meer dan 100 meter boven NAP. Dit zorgt voor een
               fantastisch uitzicht. Boven op de toren staan de gebieden
               aangegeven waar u naar kijkt. Op deze manier krijgt u een mooie
-              impressie van 'ons' mooie Montferland, de Achterhoek en de
-              natuurlijke overgang naar het aangrenzende Duitsland. De
+              impressie van &apos;ons&apos; mooie Montferland, de Achterhoek en
+              de natuurlijke overgang naar het aangrenzende Duitsland. De
               uitkijktoren is opgenomen in diverse wandelroutes in het
               Bergherbos. Alleen al het wandelen door Montferland is prachtig.
               De route naar de uitkijktoren is goed te doen. Eenmaal boven sta

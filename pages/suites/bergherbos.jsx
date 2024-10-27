@@ -293,7 +293,7 @@ export default function Bergherbos() {
               <br />
               De stuwwal waar het Bergherbos op ligt ontstond toen zo&#39;n
               200.000 jaar geleden gigantische ijsmassa&#39;s vanuit het noorden
-              enorme massa's grond en stenen voor zich uit stuwden. Het ijs
+              enorme massa&apos;s grond en stenen voor zich uit stuwden. Het ijs
               smolt later weg en de stuwwallen bleven achter. Ze dragen vele
               sporen uit het verleden. Er is duizenden jaren gewoond en
               geploegd, er is ijzererts gewonnen en gevochten, er zijn bomen
