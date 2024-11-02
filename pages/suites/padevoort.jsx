@@ -91,8 +91,7 @@ export default function Padevoort() {
           <div className="py-4">
             <h2 className="text-2xl font-semibold">Prijzen</h2>
             <div className="text-[--color-text]">
-              € 199,00 per nacht(exclusief toeristenbelasting) booking min. 2
-              nachten.
+              € 199,00 per nacht (exclusief toeristenbelasting).
             </div>
           </div>
 
