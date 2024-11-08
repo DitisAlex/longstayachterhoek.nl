@@ -12,12 +12,13 @@ export default function About() {
             Over Ons
           </p>
           <p className="py-2 text-[--color-text]">
-            Longstay Achterhoek is gevestigd in het achterste deel van het pand
-            gelegen aan de Terborgseweg 2 te Zeddam waar voorheen een succesvol
-            buffetrestaurant werd gerund met 300 zitplaatsen. Na een rigoureuze
-            verbouwing is het nu veranderd in een prachtig aparthotel met negen
-            volledig ingerichte suites. Aan de voorzijde kan er nog steeds
-            heerlijk worden gegeten in{" "}
+            Longstay Achterhoek is een Aparthotel met negen volledig ingerichte
+            appartementen inclusief keuken. Dit hotel is gevestigd in het
+            achterste deel van het pand gelegen aan de Terborgseweg 2 te Zeddam
+            waar voorheen een succesvol buffetrestaurant werd gerund met 300
+            zitplaatsen. Na een rigoureuze verbouwing is het nu veranderd in een
+            prachtig aparthotel met negen volledig ingerichte suites. Aan de
+            voorzijde kan er nog steeds heerlijk worden gegeten in{" "}
             <Link href="https://sinchen.nl/" target="_blank">
               <span className="underline text-[--navbar-primary]">
                 het à la carte restaurant, Sin Chen,
