@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Footer } from "flowbite-react";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
 import { TbBrandBooking } from "react-icons/tb";
 
 import logo from "../public/logo_horizontal.png";
@@ -26,8 +27,8 @@ export default function FooterComponent() {
               <Footer.Link href="#faciliteiten">Faciliteiten</Footer.Link>
               <Footer.Link href="#zakelijk">Zakelijk</Footer.Link>
               <Footer.Link href="#contact">Contact</Footer.Link>
-              <Footer.Link href="/privacy">Privacy Policy</Footer.Link>
-              <Footer.Link href="/tos">Terms of Services</Footer.Link>
+              {/* <Footer.Link href="/privacy">Privacy Policy</Footer.Link>
+              <Footer.Link href="/tos">Terms of Services</Footer.Link> */}
             </Footer.LinkGroup>
           </div>
           <Footer.Divider />

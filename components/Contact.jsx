@@ -48,7 +48,13 @@ export default function Contact() {
         </p>
         <p className="py-2 text-[--color-text]">
           Vul de onderstaande gegevens in indien u in contact wilt komen met
-          ons.
+          ons. U kunt ons ook bereiken via telefoon of WhatsApp op{" "}
+          <a
+            href="tel:+31314235049"
+            className="text-[--navbar-primary] underline"
+          >
+            +31 314 23 50 49
+          </a>
         </p>
         <form
           className="py-4 md:grid grid-cols-2 gap-4"
