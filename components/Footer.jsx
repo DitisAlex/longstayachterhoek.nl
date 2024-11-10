@@ -44,7 +44,7 @@ export default function FooterComponent() {
               <a href="tel:+31314235049" className="underline">
                 +31 314 23 50 49
               </a>
-              (Bereikbaar via telefoon of WhatsApp)
+              (WhatsApp of Telefonisch)
             </div>
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
               <Footer.Icon
