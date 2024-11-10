@@ -55,6 +55,7 @@ export default function Contact() {
           >
             +31 314 23 50 49
           </a>
+          .
         </p>
         <form
           className="py-4 md:grid grid-cols-2 gap-4"
