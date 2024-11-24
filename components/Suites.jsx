@@ -5,15 +5,15 @@ import { Button, Card } from "flowbite-react";
 import { Flowbite } from "flowbite-react";
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 
-import Hulzenberg from "../public/suites/hulzenberg.png";
-import Slipjacht from "../public/suites/slipjacht.png";
-import HuisBergh from "../public/suites/huisbergh.png";
-import Bergherbos from "../public/suites/bergherbos.png";
-import OudeIjssel from "../public/suites/oudeijssel.png";
-import MTBRoute from "../public/suites/mtbroute.png";
-import LangeWei from "../public/suites/langewei.png";
-import Padevoort from "../public/suites/padevoort.png";
-import Torenmolen from "../public/suites/torenmolen.png";
+import Hulzenberg from "../public/suites/hulzenberg.jpg";
+import Slipjacht from "../public/suites/slipjacht.jpg";
+import HuisBergh from "../public/suites/huisbergh.jpg";
+import Bergherbos from "../public/suites/bergherbos.jpg";
+import OudeIjssel from "../public/suites/oudeijssel.jpg";
+import MTBRoute from "../public/suites/mtbroute.jpg";
+import LangeWei from "../public/suites/langewei.jpg";
+import Padevoort from "../public/suites/padevoort.jpg";
+import Torenmolen from "../public/suites/torenmolen.jpg";
 
 export default function Suites() {
   const [showAll, setShowAll] = useState(false);
@@ -73,7 +73,7 @@ export default function Suites() {
                     height={400}
                     src={Hulzenberg}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
@@ -97,7 +97,7 @@ export default function Suites() {
                     height={400}
                     src={Slipjacht}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
@@ -121,7 +121,7 @@ export default function Suites() {
                     height={400}
                     src={HuisBergh}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
@@ -145,7 +145,7 @@ export default function Suites() {
                     height={400}
                     src={Bergherbos}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
@@ -169,7 +169,7 @@ export default function Suites() {
                     height={400}
                     src={OudeIjssel}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
@@ -193,7 +193,7 @@ export default function Suites() {
                     height={400}
                     src={MTBRoute}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
@@ -217,7 +217,7 @@ export default function Suites() {
                     height={400}
                     src={LangeWei}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
@@ -241,7 +241,7 @@ export default function Suites() {
                     height={400}
                     src={Padevoort}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
@@ -265,7 +265,7 @@ export default function Suites() {
                     height={400}
                     src={Torenmolen}
                     alt="image 1"
-                    className="rounded-md"
+                    className="rounded-md rounded-b-none"
                   />
                 )}
               >
