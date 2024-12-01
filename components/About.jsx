@@ -45,10 +45,12 @@ export default function About() {
           u met al uw vragen over de appartementen, faciliteiten en de omgeving
           bij ons terecht. Wij zorgen graag voor een zorgeloos verblijf!
         </p>
-        <p className="py-2 text-[--color-text]">
-          <b>Voordelen van onze longstay appartementen?</b>
-          <br />
-          Onze appartementen zijn van alle gemakken voorzien:
+        <div className="py-2 text-[--color-text]">
+          <p>
+            <b>Voordelen van onze longstay appartementen?</b>
+            <br />
+            Onze appartementen zijn van alle gemakken voorzien:
+          </p>
           <ul className="ml-8 list-disc">
             <li>Goede bereikbaarheid (A12 en Duitse A3)</li>
             <li>Gratis parkeren</li>
@@ -68,7 +70,7 @@ export default function About() {
               en handdoeken
             </li>
           </ul>
-        </p>
+        </div>
       </div>
     </div>
   );

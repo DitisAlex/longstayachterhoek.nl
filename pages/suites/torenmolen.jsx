@@ -325,7 +325,7 @@ export default function Torenmolen() {
               contact met ons.
             </p>
             <Flowbite theme={{ theme: customTheme }}>
-              <Link href="/#contact">
+              <Link href="/contact">
                 <Button
                   color="success"
                   className="font-semibold tracking-wider"
@@ -336,7 +336,7 @@ export default function Torenmolen() {
               <p className="text-[--color-text] py-2 pt-6">
                 Wilt u zakelijk verblijven? Klik dan hier.
               </p>
-              <Link href="/#zakelijk">
+              <Link href="/zakelijk">
                 <Button
                   color="success"
                   className="font-semibold tracking-wider"
