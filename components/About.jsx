@@ -1,38 +1,52 @@
 import Image from "next/image";
-import Link from "next/link";
 
-import logo from "../public/hd/eigenaren.jpg";
+import logo from "../public/suites/langewei.jpg";
 
 export default function About() {
   return (
     <div id="about" className="w-full p-2 flex items-center py-24">
       <div className="max-w-[1240px] m-auto">
         <p className="font-semibold uppercase text-2xl tracking-widest text-[--navbar-primary] py-2">
-          Over Longstay Achterhoek
+          Longstay Achterhoek
         </p>
-        <p className="py-2 text-[--color-text]">
-          Longstay Achterhoek is een Aparthotel met negen volledig ingerichte
-          appartementen inclusief keuken. Onze appartementen zijn nieuw gebouwd
-          en voorzien van alle comfort en gemakken, daarnaast zijn ze erg ruim
-          en beschikt ieder appartement over een eigen terras. <br />
-          <br />
-          Bent u op zoek naar tijdelijke woonruimte of zoekt u regelmatig
-          longstay appartementen voor expats en/of projectmedewerkers in buurt
-          van Zeddam? Onze longstay appartementen zijn comfortabel en uitermate
-          geschikt voor de zakelijke markt. Ze zijn gelegen op een toplocatie
-          aan de uitvalswegen A12 richting Arnhem en de Duitse A3 richting
-          Oberhausen. <br />
-          <br />
-          <i>
-            Dichtbij bedrijventerreinen, zoals: &#39;s-Heerenberg (2km), Wehl
-            (5km), Ulft (7km), Doetinchem (8km)
-          </i>
-          <br />
-          <br /> Bij ons zijn gasten verzekerd van een ruim, schoon en gastvrij
-          appartement dat voorzien is van alle comfort. Een langdurig verblijf
-          wordt een verademing, wij bieden onze gasten absolute rust en privacy
-          in een comfortabele en huiselijke omgeving.
-        </p>
+        <div className="md:grid grid-cols-3 gap-8">
+          <div className="col-span-2">
+            <p className="py-2 text-[--color-text]">
+              Longstay Achterhoek is een Aparthotel met negen volledig
+              ingerichte appartementen inclusief keuken. Onze appartementen zijn
+              nieuw gebouwd en voorzien van alle comfort en gemakken, daarnaast
+              zijn ze erg ruim en beschikt ieder appartement over een eigen
+              terras. <br />
+              <br />
+              Bent u op zoek naar tijdelijke woonruimte of zoekt u regelmatig
+              longstay appartementen voor expats en/of projectmedewerkers in
+              buurt van Zeddam? Onze longstay appartementen zijn comfortabel en
+              uitermate geschikt voor de zakelijke markt. Ze zijn gelegen op een
+              toplocatie aan de uitvalswegen A12 richting Arnhem en de Duitse A3
+              richting Oberhausen. <br />
+              <br />
+              <i>
+                Dichtbij bedrijventerreinen, zoals: &#39;s-Heerenberg (2km),
+                Wehl (5km), Ulft (7km), Doetinchem (8km)
+              </i>
+              <br />
+              <br /> Bij ons zijn gasten verzekerd van een ruim, schoon en
+              gastvrij appartement dat voorzien is van alle comfort. Een
+              langdurig verblijf wordt een verademing, wij bieden onze gasten
+              absolute rust en privacy in een comfortabele en huiselijke
+              omgeving.
+            </p>
+          </div>
+          <div className="py-4 items-center flex">
+            <Image
+              src={logo}
+              alt="Logo"
+              width={1000}
+              height={1000}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
         <p className="py-2 text-[--color-text]">
           <b>Wat is een longstay appartement?</b>
           <br />
