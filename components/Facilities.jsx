@@ -139,7 +139,7 @@ export default function Facilities() {
               bij{" "}
               <Link href="https://clcsports.nl/" target="_blank">
                 <span className="underline text-[--navbar-primary]">
-                  CLG Sports
+                  CLC Sports
                 </span>{" "}
                 in &#39;s-Heerenberg
               </Link>

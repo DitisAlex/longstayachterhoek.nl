@@ -87,7 +87,7 @@ export default function Zakelijk() {
           </div>
           <p className="text-sm italic text-[--color-text]">
             Disclaimer: Alle prijzen zijn exclusief 9% btw en toeristenbelasting
-            € 1,25 p.p.p.n. Facturatie vind iedere twee weken plaats.
+            € 1,25 p.p.p.n.
           </p>
         </div>
       </div>
