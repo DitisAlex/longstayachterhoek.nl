@@ -21,12 +21,12 @@ export default function FooterComponent() {
               </Link>
             </div>
             <Footer.LinkGroup className="text-white uppercase gap-4 text-md">
-              <Footer.Link href="#">Home</Footer.Link>
-              <Footer.Link href="#about">Over Ons</Footer.Link>
-              <Footer.Link href="#suites">Suites</Footer.Link>
-              <Footer.Link href="#faciliteiten">Faciliteiten</Footer.Link>
-              <Footer.Link href="#zakelijk">Zakelijk</Footer.Link>
-              <Footer.Link href="#contact">Contact</Footer.Link>
+              <Footer.Link href="/">Home</Footer.Link>
+              <Footer.Link href="suites">Suites</Footer.Link>
+              <Footer.Link href="zakelijk">Zakelijk</Footer.Link>
+              <Footer.Link href="faciliteiten">Faciliteiten</Footer.Link>
+              <Footer.Link href="about">Over Ons</Footer.Link>
+              <Footer.Link href="contact">Contact</Footer.Link>
               {/* <Footer.Link href="/privacy">Privacy Policy</Footer.Link>
               <Footer.Link href="/tos">Terms of Services</Footer.Link> */}
             </Footer.LinkGroup>

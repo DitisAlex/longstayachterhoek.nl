@@ -43,10 +43,10 @@ export default function Index() {
       <NavbarComponent />
       <Landing />
       <About />
-      <Suites />
+      {/* <Suites />
       <Facilities />
       <Business />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </div>
   );

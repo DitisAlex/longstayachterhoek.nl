@@ -6,67 +6,69 @@ import logo from "../public/hd/eigenaren.jpg";
 export default function About() {
   return (
     <div id="about" className="w-full p-2 flex items-center py-24">
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2">
-          <p className="font-semibold uppercase text-2xl tracking-widest text-[--navbar-primary] py-2">
-            Over Ons
-          </p>
-          <p className="py-2 text-[--color-text]">
-            Longstay Achterhoek is een Aparthotel met negen volledig ingerichte
-            appartementen inclusief keuken. Dit hotel is gevestigd in het
-            achterste deel van het pand gelegen aan de Terborgseweg 2 te Zeddam
-            waar voorheen een succesvol buffetrestaurant werd gerund met 300
-            zitplaatsen. Na een rigoureuze verbouwing is het nu veranderd in een
-            prachtig aparthotel met negen volledig ingerichte suites. Aan de
-            voorzijde kan er nog steeds heerlijk worden gegeten in{" "}
-            <Link href="https://sinchen.nl/" target="_blank">
-              <span className="underline text-[--navbar-primary]">
-                het à la carte restaurant, Sin Chen,
-              </span>
-            </Link>{" "}
-            ook gerund door de familie die als motto heeft: &#39;stilstand is
-            achteruitgang&#39; en die tevens erg trots is op dit prachtige
-            stukje Achterhoek aan de voet van de Montferlandse bossen. Onze
-            longstay appartementen zijn naast recreatief gebruik uiterst
-            geschikt voor de zakelijke markt.
-            <br />
-            <br />
-            Onze appartementen zijn nieuw gebouwd en voorzien van alle comfort
-            en gemakken, inclusief eigen pantry. Daarnaast zijn ze erg ruim en
-            beschikt ieder appartement over een eigen terras. Het Montferlandse
-            bos, een van de mooiste natuurgebieden in Nederland, ligt op
-            loopafstand (350m). Longstay Achterhoek biedt haar gasten rust,
-            ruimte en privacy in het pittoreske dorp Zeddam.
-            <br />
-            <br /> Zeddam, ook wel bekend als Seydehem in het Nederfrankisch,
-            betekent “woonplaats aan heuvel.” Het is een dorpskern in de
-            gemeente Montferland, die vroeger bekend stond als de gemeente
-            Bergh. Een prachtig pittoresk dorp maar ook gunstig gelegen ten
-            opzichte van verschillende uitvalswegen.
-          </p>
-          <p className="italic py-2 text-[--color-text]">
-            <b>Wat is een longstay appartement?</b>
-            <br />
-            Longstay appartementen zijn goed uitgeruste accommodaties die extra
-            diensten en voorzieningen bieden ten opzichte van standaard hotels,
-            speciaal voor gasten die langer in deze appartementen verblijven.
-            Deze voorzieningen zijn bedoeld om gasten, zoals bijvoorbeeld expats
-            en zakenreizigers, zich snel thuis te laten voelen. Onze
-            appartementen zijn volledig ingericht en van alle gemakken voorzien.
-            Natuurlijk kunt u met al uw vragen over de appartementen,
-            faciliteiten en de omgeving bij ons terecht. Wij zorgen graag voor
-            een zorgeloos verblijf!
-          </p>
-        </div>
-        <div className="py-4">
-          <Image
-            src={logo}
-            alt="Logo"
-            width={1000}
-            height={1000}
-            className="rounded-lg shadow-lg"
-          />
-        </div>
+      <div className="max-w-[1240px] m-auto">
+        <p className="font-semibold uppercase text-2xl tracking-widest text-[--navbar-primary] py-2">
+          Over Longstay Achterhoek
+        </p>
+        <p className="py-2 text-[--color-text]">
+          Longstay Achterhoek is een Aparthotel met negen volledig ingerichte
+          appartementen inclusief keuken. Onze appartementen zijn nieuw gebouwd
+          en voorzien van alle comfort en gemakken, daarnaast zijn ze erg ruim
+          en beschikt ieder appartement over een eigen terras. <br />
+          <br />
+          Bent u op zoek naar tijdelijke woonruimte of zoekt u regelmatig
+          longstay appartementen voor expats en/of projectmedewerkers in buurt
+          van Zeddam? Onze longstay appartementen zijn comfortabel en uitermate
+          geschikt voor de zakelijke markt. Ze zijn gelegen op een toplocatie
+          aan de uitvalswegen A12 richting Arnhem en de Duitse A3 richting
+          Oberhausen. <br />
+          <br />
+          <i>
+            Dichtbij bedrijventerreinen, zoals: &#39;s-Heerenberg (2km), Wehl
+            (5km), Ulft (7km), Doetinchem (8km)
+          </i>
+          <br />
+          <br /> Bij ons zijn gasten verzekerd van een ruim, schoon en gastvrij
+          appartement dat voorzien is van alle comfort. Een langdurig verblijf
+          wordt een verademing, wij bieden onze gasten absolute rust en privacy
+          in een comfortabele en huiselijke omgeving.
+        </p>
+        <p className="py-2 text-[--color-text]">
+          <b>Wat is een longstay appartement?</b>
+          <br />
+          Longstay appartementen zijn goed uitgeruste accommodaties die extra
+          diensten en voorzieningen bieden ten opzichte van standaard hotels,
+          speciaal voor gasten die langer in deze appartementen verblijven. Deze
+          voorzieningen zijn bedoeld om gasten, zoals bijvoorbeeld expats en
+          zakenreizigers, zich snel thuis te laten voelen. Onze appartementen
+          zijn volledig ingericht en van alle gemakken voorzien. Natuurlijk kunt
+          u met al uw vragen over de appartementen, faciliteiten en de omgeving
+          bij ons terecht. Wij zorgen graag voor een zorgeloos verblijf!
+        </p>
+        <p className="py-2 text-[--color-text]">
+          <b>Voordelen van onze longstay appartementen?</b>
+          <br />
+          Onze appartementen zijn van alle gemakken voorzien:
+          <ul className="ml-8 list-disc">
+            <li>Goede bereikbaarheid (A12 en Duitse A3)</li>
+            <li>Gratis parkeren</li>
+            <li>Gratis snelle WiFi</li>
+            <li>Airconditioning</li>
+            <li>Ruime kamers ter grootte van min 50m2</li>
+            <li>
+              Elke dag vers ontbijt bij Broods (300m), to-go of ter plaatste te
+              nuttigen
+            </li>
+            <li>Compleet uitgeruste keuken inclusief vaatwasser</li>
+            <li>Smart Tv 43 inch</li>
+            <li>Externe was/strijkservice</li>
+            <li>
+              Schoonmaakservice: bij een verblijf langer dan een week worden de
+              kamers wekelijks schoongemaakt en voorzien van schoon beddengoed
+              en handdoeken
+            </li>
+          </ul>
+        </p>
       </div>
     </div>
   );
