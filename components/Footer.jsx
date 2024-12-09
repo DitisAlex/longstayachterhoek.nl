@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Footer } from "flowbite-react";
 import { FaInstagram } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaMap } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { TbBrandBooking } from "react-icons/tb";
 
@@ -46,6 +46,17 @@ export default function FooterComponent() {
               </a>
               (WhatsApp of Telefonisch)
             </div>
+            <div className="flex items-center gap-1 text-white">
+              <FaMap />
+              <a
+                href="https://maps.app.goo.gl/BcZLyBiSKJT66vUe9"
+                target="_blank"
+                className="underline"
+              >
+                Terborgseweg 2 7038 EW Zeddam
+              </a>
+            </div>
+
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
               <Footer.Icon
                 href="https://instagram.com/longstayachterhoek"
