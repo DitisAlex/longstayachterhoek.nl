@@ -75,4 +75,34 @@
     <lastmod>2023-10-01</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.longstayachterhoek.nl/woonruimte-in-de-achterhoek</loc>
+    <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+    <url>
+    <loc>https://www.longstayachterhoek.nl/woonruimte-in-de-buurt-van-doetinchem</loc>
+    <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+    <url>
+    <loc>https://www.longstayachterhoek.nl/tijdelijke-woonruimte</loc>
+    <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+      <url>
+    <loc>https://www.longstayachterhoek.nl/expats-housing</loc>
+    <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+        <url>
+    <loc>https://www.longstayachterhoek.nl/zakelijk-overnachten</loc>
+    <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+        <url>
+    <loc>https://www.longstayachterhoek.nl/woonruimte-voor-expats</loc>
+    <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
 </urlset>
