@@ -40,7 +40,7 @@ export default function Advertisement() {
             gaan en de omgeving te ontdekken of juist te genieten van even
             helemaal niets. De woningen beschikken hoge ramen, wat zorgt voor
             extra veel daglicht. Daarnaast is de slaapkamer voorzien van een{" "}
-            <b>badkamer ensuite</b>, met een heerlijke douche. De appartementen
+            badkamer ensuite, met een heerlijke douche. De appartementen
             beschikken over een compleet ingerichte keuken met afwasmachine,
             combi-oven en elektrische kookplaat.
             <br />

@@ -68,6 +68,9 @@ export default function NavbarComponent() {
             <Link href="/faciliteiten">Faciliteiten</Link>
           </li>
           <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:underline decoration-2 duration-300 ease-in-out">
+            <Link href="/tijdelijke-woonruimte">Tijdelijke Woonruimte</Link>
+          </li>
+          <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:underline decoration-2 duration-300 ease-in-out">
             <Link href="/about">Over Ons</Link>
           </li>
           <li className="ml-10 text-l tracking-widest font-semibold uppercase hover:underline decoration-2 duration-300 ease-in-out">
@@ -119,6 +122,14 @@ export default function NavbarComponent() {
               <li className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
                 <Link href="/faciliteiten" onClick={() => setToggleNav(false)}>
                   Faciliteiten
+                </Link>
+              </li>
+              <li className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
+                <Link
+                  href="/tijdelijke-woonruimte"
+                  onClick={() => setToggleNav(false)}
+                >
+                  Tijdelijke Woonruimte
                 </Link>
               </li>
               <li className="border-b border-gray-300 py-2 text-l tracking-widest font-semibold uppercase hover:text-[--navbar-text-hover] duration-300 ease-in-out">
