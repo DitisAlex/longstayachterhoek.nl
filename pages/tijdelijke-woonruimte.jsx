@@ -26,30 +26,26 @@ export default function Advertisement() {
             Tijdelijke woonruimte
           </p>
           <p className="py-2 text-[--color-text]">
-            Ben je vastgelopen in een langdurige verbouwing? Wacht je op de
-            sleutel van je nieuwe huis? Of is je relatie gestrand en zoek je een
-            tijdelijke haven in de Achterhoek?
+            Bent u op zoek naar tijdelijke woonruimte?
             <br />
             <br />
-            Bij Longstay Achterhoek is het mogelijk om een appartement te huren
-            voor langere tijd. Onze appartementen liggen in het Bergher bos,
-            deze groene ligging is perfect geschikt voor tijdelijke verhuur.
-            Onze appartementen bieden een thuis weg van huis voor een langere
-            periode, welkom thuis bij Longstay Achterhoek
+            Naast zakelijke en toeristische verhuur is het ook mogelijk om onze
+            appartementen tijdelijk (max. 3 maanden) te huren.
             <br />
             <br />
-            Deze compleet ingerichte en luxe appartementen bieden alles wat je
-            nodig hebt voor een lang en heerlijk verblijf. Perfect om eropuit te
-            gaan en de omgeving te ontdekken of juist te genieten van even
-            helemaal niets. De woningen beschikken hoge ramen, wat zorgt voor
-            extra veel daglicht. Daarnaast is de slaapkamer voorzien van een{" "}
-            badkamer ensuite, met een heerlijke douche. De appartementen
-            beschikken over een compleet ingerichte keuken met afwasmachine,
-            combi-oven en elektrische kookplaat.
+            Dit kan handig zijn bij calamiteiten: denk aan waterschade,
+            brandschade of andere verzekeringskwesties. Maar ook in geval van
+            een scheiding kan dit een tijdelijke oplossing bieden.
             <br />
             <br />
-            Onze appartementen zijn voorzien van bedlinnen, handdoeken en een
-            keukenpakket.
+            Onze ingerichte en luxe appartementen bieden alles wat je nodig hebt
+            voor een lang en heerlijk verblijf. Perfect om eropuit te gaan en de
+            omgeving te ontdekken of juist te genieten van even helemaal niets.
+            De woningen beschikken hoge ramen, wat zorgt voor extra veel
+            daglicht. Daarnaast is de slaapkamer voorzien van een badkamer
+            ensuite, met een heerlijke douche. De appartementen beschikken over
+            een compleet ingerichte keuken met afwasmachine, combi-oven en
+            elektrische kookplaat.
           </p>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">
