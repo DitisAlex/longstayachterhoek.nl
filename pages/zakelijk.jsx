@@ -33,9 +33,8 @@ export default function Zakelijk() {
                 Vanaf 2 maanden
               </h1>
               <div className="flex items-baseline text-gray-900">
-                <span className="text-3xl font-semibold">€</span>
                 <span className="text-5xl font-extrabold tracking-tight">
-                  79
+                  69
                 </span>
                 <span className="ml-1 text-xl font-normal text-gray-500 ">
                   /nacht
@@ -47,9 +46,8 @@ export default function Zakelijk() {
                 1 tot 2 maanden
               </h1>
               <div className="flex items-baseline text-gray-900">
-                <span className="text-3xl font-semibold">€</span>
                 <span className="text-5xl font-extrabold tracking-tight">
-                  89
+                  79
                 </span>
                 <span className="ml-1 text-xl font-normal text-gray-500 ">
                   /nacht
@@ -61,9 +59,8 @@ export default function Zakelijk() {
                 14 dagen tot 1 maand
               </h1>
               <div className="flex items-baseline text-gray-900">
-                <span className="text-3xl font-semibold">€</span>
                 <span className="text-5xl font-extrabold tracking-tight">
-                  99
+                  89
                 </span>
                 <span className="ml-1 text-xl font-normal text-gray-500 ">
                   /nacht
@@ -75,9 +72,8 @@ export default function Zakelijk() {
                 7 dagen tot 14 dagen
               </h1>
               <div className="flex items-baseline text-gray-900">
-                <span className="text-3xl font-semibold">€</span>
                 <span className="text-5xl font-extrabold tracking-tight">
-                  109
+                  99
                 </span>
                 <span className="ml-1 text-xl font-normal text-gray-500 ">
                   /nacht
@@ -86,8 +82,8 @@ export default function Zakelijk() {
             </Card>
           </div>
           <p className="text-sm italic text-[--color-text]">
-            Disclaimer: Alle prijzen zijn exclusief 9% btw en toeristenbelasting
-            € 1,25 p.p.p.n.
+            Disclaimer: Alle prijzen zijn exclusief 21% btw en
+            toeristenbelasting € 1,25 p.p.p.n.
           </p>
         </div>
       </div>

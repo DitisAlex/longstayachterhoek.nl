@@ -88,12 +88,6 @@ export default function MTBRoute() {
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-8">
         <div className="col-span-4">
           <div className="py-4">
-            <h2 className="text-2xl font-semibold">Prijzen</h2>
-            <div className="text-[--color-text]">
-              € 199,00 per nacht (exclusief toeristenbelasting).
-            </div>
-          </div>
-          <div className="py-4">
             <h2 className="text-2xl font-semibold">Beschrijving</h2>
             <div className="text-[--color-text]">
               Kenmerken van dit appartement:
