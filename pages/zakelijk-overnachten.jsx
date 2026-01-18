@@ -2,6 +2,7 @@ import NavbarComponent from "../components/Navbar.jsx";
 import FooterComponent from "../components/Footer.jsx";
 import Head from "next/head";
 import Link from "next/link";
+import { Card } from "flowbite-react";
 
 export default function Advertisement() {
   return (

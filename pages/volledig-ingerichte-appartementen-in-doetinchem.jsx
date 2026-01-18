@@ -32,7 +32,7 @@ export default function Advertisement() {
             typische hotelkamers en bieden aparte woon-, eet- en slaapgedeeltes.
             Deze extra ruimte is essentieel voor een comfortabel langer
             verblijf, waardoor zakelijke gasten een productieve routine kunnen
-            aanhouden, collega's kunnen ontvangen en zich echt thuis kunnen
+            aanhouden, collega&apos;s kunnen ontvangen en zich echt thuis kunnen
             voelen.
           </p>
           <p className="py-2 text-[--color-text]">
