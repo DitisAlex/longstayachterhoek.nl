@@ -15,7 +15,7 @@ export default function Advertisement() {
         <title>Longstay Achterhoek</title>
         <meta
           name="description"
-          content="Woonruimte in de achterhoek bij Longstay Achterhoek"
+          content="Tijdelijke woonruimte in de Grensstreek bij Longstay Achterhoek"
         />
       </Head>
       <NavbarComponent />
@@ -23,23 +23,24 @@ export default function Advertisement() {
       <div className="flex-grow w-full p-2 py-36">
         <div className="max-w-[1240px] m-auto">
           <p className="font-semibold uppercase text-2xl tracking-widest text-[--navbar-primary] py-2">
-            Woonruimte in de Achterhoek
+            Tijdelijke woonruimte in de Grensstreek
           </p>
           <p className="py-2 text-[--color-text]">
-            Bent u op zoek naar woonruimte? Naast zakelijke en toeristische
-            verhuur is het ook mogelijk om onze appartementen tijdelijk (max. 3
-            maanden) te huren.
+            Wanneer je voor langere tijd op zoek bent naar tijdelijke woonruimte
+            in de Grensstreek dan is Longstay Achterhoek een geschikte optie...
             <br />
             <br />
             Dit kan handig zijn bij calamiteiten: denk aan waterschade,
             brandschade of andere verzekeringskwesties. Maar ook in geval van
-            een scheiding kan dit een tijdelijke oplossing bieden.
+            een scheiding kan dit een tijdelijke oplossing bieden. Of bij
+            bijvoorbeeld een verbouwing wanneer je daarvoor ook tijdelijk je
+            woning moet verlaten.
             <br />
             <br />
             Onze ingerichte en luxe appartementen bieden alles wat je nodig hebt
             voor een lang en heerlijk verblijf. Perfect om eropuit te gaan en de
             omgeving te ontdekken of juist te genieten van even helemaal niets.
-            De woningen beschikken hoge ramen, wat zorgt voor extra veel
+            De woningen beschikken over hoge ramen, wat zorgt voor extra veel
             daglicht. Daarnaast is de slaapkamer voorzien van een badkamer
             ensuite, met een heerlijke douche. De appartementen beschikken over
             een compleet ingerichte keuken met afwasmachine, combi-oven en

@@ -2,41 +2,44 @@ import NavbarComponent from "../components/Navbar.jsx";
 import FooterComponent from "../components/Footer.jsx";
 import Head from "next/head";
 import Link from "next/link";
+import { Card } from "flowbite-react";
 
 export default function Advertisement() {
   return (
     <div className="flex flex-col min-h-screen">
       <Head>
         <title>Longstay Achterhoek</title>
-        <meta name="description" content="Longstay Achterhoek" />
+        <meta
+          name="description"
+          content="Volledig ingerichte appartementen in Nederland bijLongstay Achterhoek"
+        />
       </Head>
       <NavbarComponent />
 
       <div className="flex-grow w-full p-2 py-36">
         <div className="max-w-[1240px] m-auto">
           <p className="font-semibold uppercase text-2xl tracking-widest text-[--navbar-primary] py-2">
-            Zakelijk overnachten
+            Volledig ingerichte appartementen in Nederland
           </p>
           <p className="py-2 text-[--color-text]">
-            Bent u op zoek naar tijdelijke woonruimte of zoekt u regelmatig
-            longstay appartementen voor expats en/of projectmedewerkers in buurt
-            van Zeddam? Onze longstay appartementen zijn comfortabel en
-            uitermate geschikt voor de zakelijke markt. Ze zijn gelegen op een
-            toplocatie aan de uitvalswegen A12 richting Arnhem en de Duitse A3
-            richting Oberhausen.
-          </p>
-          <p className="italic text-[--color-text]">
-            Dichtbij bedrijventerreinen, zoals: &#39;s-Heerenberg (2km), Wehl
-            (5km), Ulft (7km), Doetinchem (8km)
+            Op zoek naar een serviceappartement in Nederland? Voor
+            kortetermijnprojecten tot langdurige werknemersverplaatsingen bieden
+            onze serviceappartementen de ruimte, het design en het comfort van
+            een thuis.
           </p>
           <p className="py-2 text-[--color-text]">
-            Onze longstay appartementen zijn goed uitgeruste accommodaties zodat
-            expats en zakenreizigers zich snel thuis kunnen voelen. Een verblijf
-            in een van onze longstay appartementen geeft u meer ruimte en meer
-            privacy dan een verblijf in een hotel. Een longstay zakelijk
-            verblijf zal snel worden ervaren als &#39;a home away from
-            home&#39;, van alle gemakken voorzien met natuurlijk ook een
-            schoonmaakservice en wasgelegenheid.
+            Ruimte en Comfort: Onze appartementen zijn aanzienlijk groter dan
+            typische hotelkamers en bieden aparte woon-, eet- en slaapgedeeltes.
+            Deze extra ruimte is essentieel voor een comfortabel langer
+            verblijf, waardoor zakelijke gasten een productieve routine kunnen
+            aanhouden, collega's kunnen ontvangen en zich echt thuis kunnen
+            voelen.
+          </p>
+          <p className="py-2 text-[--color-text]">
+            Financiële Waarde en Flexibiliteit: Serviceappartementen zijn een
+            zeer kosteneffectieve optie voor langdurige verblijven, vooral met
+            volledig uitgeruste keukens die aanzienlijke besparingen op
+            maaltijdkosten mogelijk maken.
           </p>
           <div className="md:grid grid-cols-4  py-4">
             <Card className="col-span-1 py-2 m-2 md:mx-0 md:rounded-r-none">
@@ -96,6 +99,7 @@ export default function Advertisement() {
             Disclaimer: Alle prijzen zijn exclusief 21% btw en
             toeristenbelasting € 1,25 p.p.p.n.
           </p>
+
           <div className="py-4">
             <h2 className="text-2xl font-semibold">
               Meer informatie over tijdelijke verhuur?

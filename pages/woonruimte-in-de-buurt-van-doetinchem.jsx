@@ -13,7 +13,10 @@ export default function Advertisement() {
     <div className="flex flex-col min-h-screen">
       <Head>
         <title>Longstay Achterhoek</title>
-        <meta name="description" content="Longstay Achterhoek" />
+        <meta
+          name="description"
+          content="Woonruimte in de buurt van Doetinchem bij Longstay Achterhoek"
+        />
       </Head>
       <NavbarComponent />
 
@@ -23,30 +26,26 @@ export default function Advertisement() {
             Woonruimte in de buurt van Doetinchem
           </p>
           <p className="py-2 text-[--color-text]">
-            Ben je vastgelopen in een langdurige verbouwing? Wacht je op de
-            sleutel van je nieuwe huis? Of is je relatie gestrand en zoek je een
-            tijdelijke haven in de Achterhoek?
+            Bent u op zoek naar woonruimte? <br />
+            <br /> Naast zakelijke en toeristische verhuur is het ook mogelijk
+            om onze appartementen tijdelijk (max. 3 maanden) te huren.
             <br />
             <br />
-            Bij Longstay Achterhoek is het mogelijk om een appartement te huren
-            voor langere tijd. Onze appartementen liggen in het Bergher bos,
-            deze groene ligging is perfect geschikt voor tijdelijke verhuur.
-            Onze appartementen bieden een thuis weg van huis voor een langere
-            periode, welkom thuis bij Longstay Achterhoek
+            Dit kan handig zijn bij calamiteiten: denk aan waterschade,
+            brandschade of andere verzekeringskwesties. Maar ook in geval van
+            een scheiding kan dit een tijdelijke oplossing bieden. Of bij
+            bijvoorbeeld een verbouwing wanneer je daarvoor ook tijdelijk je
+            woning moet verlaten.
             <br />
             <br />
-            Deze compleet ingerichte en luxe appartementen bieden alles wat je
+            Onze volledig ingerichte en luxe appartementen bieden alles wat je
             nodig hebt voor een lang en heerlijk verblijf. Perfect om eropuit te
             gaan en de omgeving te ontdekken of juist te genieten van even
             helemaal niets. De woningen beschikken hoge ramen, wat zorgt voor
-            extra veel daglicht. Daarnaast is de slaapkamer voorzien van een{" "}
-            <b>badkamer ensuite</b>, met een heerlijke douche. De appartementen
+            extra veel daglicht. Daarnaast is de slaapkamer voorzien van een
+            badkamer ensuite, met een heerlijke douche. De appartementen
             beschikken over een compleet ingerichte keuken met afwasmachine,
             combi-oven en elektrische kookplaat.
-            <br />
-            <br />
-            Onze appartementen zijn voorzien van bedlinnen, handdoeken en een
-            keukenpakket.
           </p>
           <div className="py-4">
             <h2 className="text-2xl font-semibold">

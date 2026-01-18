@@ -15,7 +15,7 @@ export default function Advertisement() {
         <title>Tijdelijke Woonruimte - Longstay Achterhoek</title>
         <meta
           name="description"
-          content="Tijdelijke Woonruimte Longstay Achterhoek"
+          content="Tijdelijke Woonruimte bij Longstay Achterhoek"
         />
       </Head>
       <NavbarComponent />

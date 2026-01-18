@@ -1,0 +1,13 @@
+# longstayachterhoek.nl - Robots.txt
+User-agent: *
+Allow: /
+
+# Block Next.js build assets
+Disallow: /_next/static/
+Disallow: /_next/image
+
+# Block API routes
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.longstayachterhoek.nl/sitemap.xml

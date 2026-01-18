@@ -8,7 +8,10 @@ export default function Advertisement() {
     <div className="flex flex-col min-h-screen">
       <Head>
         <title>Longstay Achterhoek</title>
-        <meta name="description" content="Longstay Achterhoek" />
+        <meta
+          name="description"
+          content="Woonruimte voor expats bij Longstay Achterhoek"
+        />
       </Head>
       <NavbarComponent />
 
